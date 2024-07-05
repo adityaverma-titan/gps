@@ -1,0 +1,1135 @@
+2024/07/04 09:26:25.354 S:I MSL Log opened.
+2024/07/04 09:26:25.354 S:T MSL_SystemInitializeAction: Successful in creating mWakePipe
+2024/07/04 09:26:25.354 S:T MSL_SystemInitializeAction: mWakePipe[0] = (4)
+2024/07/04 09:26:25.354 S:T MSL_SystemInitializeAction: mWakePipe[1] = (5)
+2024/07/04 09:26:25.354 S:I RXN_MSL_Initialize: MSL Ver: PG Lite MSL 1.0.6
+2024/07/04 09:26:25.354 S:I RXN_MSL_Initialize: PG Lite API Ver: PG Lite API 1.0.6
+2024/07/04 09:26:25.354 S:I RXN_MSL_Initialize: Will log for severity levels 0 - 4
+2024/07/04 09:26:25.354 S:T RXN_MSL_Initialize: Log_Max_Size: 10240
+2024/07/04 09:26:25.354 S:T RXN_MSL_Initialize: MSL_Log_Path: ./MSL_Log.txt
+2024/07/04 09:26:25.354 S:T RXN_MSL_Initialize: Customer_ID: C3LYMrPEvt
+2024/07/04 09:26:25.354 S:T RXN_MSL_Initialize: Customer_Key: Ga2qtbXLeMXwPjqQ
+2024/07/04 09:26:25.354 S:T RXN_SocketMsgThread: Entering select maxFds: 7.
+2024/07/04 09:26:25.354 S:T RXN_MSL_Initialize: Device_ID: 02-83-3F-A3-43-A3
+2024/07/04 09:26:25.354 S:T RXN_MSL_Initialize: Pantry_Path: ./RXN
+2024/07/04 09:26:25.354 S:T RXN_MSL_Initialize: System_Check_Freq: 14400
+2024/07/04 09:26:25.354 S:T RXN_MSL_Initialize: Startup_Data_Wait_Duration: 10
+2024/07/04 09:26:25.354 S:T RXN_MSL_Initialize: Seed_Host: starcourse.location.io
+2024/07/04 09:26:25.354 S:T RXN_MSL_Initialize: Seed_Port: 80
+2024/07/04 09:26:25.354 S:T RXN_MSL_Initialize: Respect_Data_Settings: 1
+2024/07/04 09:26:25.354 S:T RXN_MSL_Initialize: Seed_Retry_Period: 60
+2024/07/04 09:26:25.354 S:T RXN_MSL_Initialize: Seed_Retry_Max: 3
+2024/07/04 09:26:25.354 S:T RXN_MSL_Initialize: Seed_Retry_Timer: 86400
+2024/07/04 09:26:25.354 S:T RXN_MSL_Initialize: Seed_Filename: f1e1G7C7.pgl
+2024/07/04 09:26:25.354 S:T RXN_MSL_Initialize: Seed_Update_Age: 172800
+2024/07/04 09:26:25.355 S:T RXN_MSL_Initialize: Seed_Update_Age_Offset: 21600
+2024/07/04 09:26:25.355 S:T RXN_MSL_Initialize: SNTP_Host: hk.pool.ntp.org
+2024/07/04 09:26:25.355 S:T RXN_MSL_Initialize: SNTP_Port: 123
+2024/07/04 09:26:25.355 S:T RXN_MSL_Initialize: SNTP_GPSTime_Uncert_Thresh: 5000
+2024/07/04 09:26:25.355 S:T RXN_MSL_Initialize: SNTP_Retry_Period: 60
+2024/07/04 09:26:25.355 S:T RXN_MSL_Initialize: SNTP_Retry_Max: 3
+2024/07/04 09:26:25.355 S:T RXN_MSL_Initialize: SNTP_Retry_Timer: 86400
+2024/07/04 09:26:25.355 S:T RXN_MSL_Initialize: Constel_Config: GPS 
+2024/07/04 09:26:25.355 S:T MSL_SetNextSystemEvent: Event 6 occurred.
+2024/07/04 09:26:25.355 S:I handleEvent: Received state 0 in event 6
+2024/07/04 09:26:25.355 S:I handleEvent: Network access available.
+2024/07/04 09:26:25.355 S:I handleEvent: Exiting timeout early.
+2024/07/04 09:26:25.355 S:T MSL_WakeUpWork: write to mWakePipe
+2024/07/04 09:26:25.355 S:T MSL_WakeUpWork: write to mWakePipe SUCCESS
+2024/07/04 09:26:25.356 S:I RXN_MSL_Work: Running state machine...
+2024/07/04 09:26:25.356 S:T MSL_RunStateMachine: state 2
+2024/07/04 09:26:25.356 S:I Received event 0 in state 2
+2024/07/04 09:26:25.356 S:I MSL_SNTPRequestAction: SNTP request made. Attempt: 1
+2024/07/04 09:26:25.356 S:T MSL_TimeoutAction: Timeout during state 3.
+2024/07/04 09:26:25.356 S:T MSL_Timeout: mWakePipe[0] = (4)
+2024/07/04 09:26:25.356 S:T MSL_Timeout: mWakePipe[1] = (5)
+2024/07/04 09:26:25.356 S:T RXN_SocketMsgThread: Command: 116 received from main thread.
+2024/07/04 09:26:25.356 S:T handleCommand: event: 116
+2024/07/04 09:26:25.356 S:T MSL_Timeout: Enter select for 60 seconds.
+2024/07/04 09:26:35.355 S:I MSL_GetBestGPSTime: Fallback to using system time.
+2024/07/04 09:26:35.355 S:W leapSecRolloverCheck: RXN API configuration file is unavailable. Debug code: 6015
+2024/07/04 09:26:35.355 S:W RXN_MSL_GetEphemerisRtcm: Both receiver and SNTP not acceptable.
+2024/07/04 09:26:35.355 S:W RXN_MSL_GetEphemerisRtcm: Using device system time as fallback time source.
+2024/07/04 09:26:35.355 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404120413 <=> 2321 | 379613
+2024/07/04 09:26:35.355 S:W RXN_MSL_GetEphemerisRtcm: No EE available for constellation enum: 0. Debug code: 6016
+2024/07/04 09:26:35.355 S:I MSL_GetBestGPSTime: Fallback to using system time.
+2024/07/04 09:26:35.355 S:W leapSecRolloverCheck: RXN API configuration file is unavailable. Debug code: 6015
+2024/07/04 09:26:35.355 S:W RXN_MSL_GetEphemerisRtcm: Both receiver and SNTP not acceptable.
+2024/07/04 09:26:35.355 S:W RXN_MSL_GetEphemerisRtcm: Using device system time as fallback time source.
+2024/07/04 09:26:35.355 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404120413 <=> 2321 | 379613
+2024/07/04 09:26:35.355 S:W RXN_MSL_GetEphemerisRtcm: No EE available for constellation enum: 0. Debug code: 6016
+2024/07/04 09:28:46.253 S:I MSL Log opened.
+2024/07/04 09:28:46.254 S:T MSL_SystemInitializeAction: Successful in creating mWakePipe
+2024/07/04 09:28:46.254 S:T MSL_SystemInitializeAction: mWakePipe[0] = (4)
+2024/07/04 09:28:46.254 S:T RXN_SocketMsgThread: Entering select maxFds: 7.
+2024/07/04 09:28:46.254 S:T MSL_SystemInitializeAction: mWakePipe[1] = (5)
+2024/07/04 09:28:46.254 S:I RXN_MSL_Initialize: MSL Ver: PG Lite MSL 1.0.6
+2024/07/04 09:28:46.254 S:I RXN_MSL_Initialize: PG Lite API Ver: PG Lite API 1.0.6
+2024/07/04 09:28:46.254 S:I RXN_MSL_Initialize: Will log for severity levels 0 - 4
+2024/07/04 09:28:46.254 S:T RXN_MSL_Initialize: Log_Max_Size: 10240
+2024/07/04 09:28:46.254 S:T RXN_MSL_Initialize: MSL_Log_Path: ./MSL_Log.txt
+2024/07/04 09:28:46.254 S:T RXN_MSL_Initialize: Customer_ID: C3LYMrPEvt
+2024/07/04 09:28:46.254 S:T RXN_MSL_Initialize: Customer_Key: Ga2qtbXLeMXwPjqQ
+2024/07/04 09:28:46.254 S:T RXN_MSL_Initialize: Device_ID: 02-83-3F-A3-43-A3
+2024/07/04 09:28:46.254 S:T RXN_MSL_Initialize: Pantry_Path: ./RXN
+2024/07/04 09:28:46.254 S:T RXN_MSL_Initialize: System_Check_Freq: 14400
+2024/07/04 09:28:46.254 S:T RXN_MSL_Initialize: Startup_Data_Wait_Duration: 10
+2024/07/04 09:28:46.254 S:T RXN_MSL_Initialize: Seed_Host: starcourse.location.io
+2024/07/04 09:28:46.254 S:T RXN_MSL_Initialize: Seed_Port: 80
+2024/07/04 09:28:46.254 S:T RXN_MSL_Initialize: Respect_Data_Settings: 1
+2024/07/04 09:28:46.254 S:T RXN_MSL_Initialize: Seed_Retry_Period: 60
+2024/07/04 09:28:46.254 S:T RXN_MSL_Initialize: Seed_Retry_Max: 3
+2024/07/04 09:28:46.254 S:T RXN_MSL_Initialize: Seed_Retry_Timer: 86400
+2024/07/04 09:28:46.254 S:T RXN_MSL_Initialize: Seed_Filename: f1e1G7C7.pgl
+2024/07/04 09:28:46.254 S:T RXN_MSL_Initialize: Seed_Update_Age: 172800
+2024/07/04 09:28:46.254 S:T RXN_MSL_Initialize: Seed_Update_Age_Offset: 21600
+2024/07/04 09:28:46.254 S:T RXN_MSL_Initialize: SNTP_Host: hk.pool.ntp.org
+2024/07/04 09:28:46.254 S:T RXN_MSL_Initialize: SNTP_Port: 123
+2024/07/04 09:28:46.254 S:T RXN_MSL_Initialize: SNTP_GPSTime_Uncert_Thresh: 5000
+2024/07/04 09:28:46.254 S:T RXN_MSL_Initialize: SNTP_Retry_Period: 60
+2024/07/04 09:28:46.254 S:T RXN_MSL_Initialize: SNTP_Retry_Max: 3
+2024/07/04 09:28:46.254 S:T RXN_MSL_Initialize: SNTP_Retry_Timer: 86400
+2024/07/04 09:28:46.254 S:T RXN_MSL_Initialize: Constel_Config: GPS 
+2024/07/04 09:28:46.254 S:T MSL_SetNextSystemEvent: Event 6 occurred.
+2024/07/04 09:28:46.254 S:I handleEvent: Received state 0 in event 6
+2024/07/04 09:28:46.254 S:I handleEvent: Network access available.
+2024/07/04 09:28:46.254 S:I handleEvent: Exiting timeout early.
+2024/07/04 09:28:46.254 S:T MSL_WakeUpWork: write to mWakePipe
+2024/07/04 09:28:46.254 S:T MSL_WakeUpWork: write to mWakePipe SUCCESS
+2024/07/04 09:28:46.255 S:I RXN_MSL_Work: Running state machine...
+2024/07/04 09:28:46.255 S:T MSL_RunStateMachine: state 2
+2024/07/04 09:28:46.255 S:I Received event 0 in state 2
+2024/07/04 09:28:46.255 S:I MSL_SNTPRequestAction: SNTP request made. Attempt: 1
+2024/07/04 09:28:46.255 S:T MSL_TimeoutAction: Timeout during state 3.
+2024/07/04 09:28:46.255 S:T MSL_Timeout: mWakePipe[0] = (4)
+2024/07/04 09:28:46.255 S:T MSL_Timeout: mWakePipe[1] = (5)
+2024/07/04 09:28:46.255 S:T RXN_SocketMsgThread: Command: 116 received from main thread.
+2024/07/04 09:28:46.255 S:T handleCommand: event: 116
+2024/07/04 09:28:46.255 S:T MSL_Timeout: Enter select for 60 seconds.
+2024/07/04 09:28:56.254 S:I MSL_GetBestGPSTime: Fallback to using system time.
+2024/07/04 09:28:56.254 S:W leapSecRolloverCheck: RXN API configuration file is unavailable. Debug code: 6015
+2024/07/04 09:28:56.254 S:W RXN_MSL_GetEphemerisRtcm: Both receiver and SNTP not acceptable.
+2024/07/04 09:28:56.254 S:W RXN_MSL_GetEphemerisRtcm: Using device system time as fallback time source.
+2024/07/04 09:28:56.254 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404120554 <=> 2321 | 379754
+2024/07/04 09:28:56.254 S:W RXN_MSL_GetEphemerisRtcm: No EE available for constellation enum: 0. Debug code: 6016
+2024/07/04 09:28:56.254 S:I MSL_GetBestGPSTime: Fallback to using system time.
+2024/07/04 09:28:56.254 S:W leapSecRolloverCheck: RXN API configuration file is unavailable. Debug code: 6015
+2024/07/04 09:28:56.254 S:W RXN_MSL_GetEphemerisRtcm: Both receiver and SNTP not acceptable.
+2024/07/04 09:28:56.254 S:W RXN_MSL_GetEphemerisRtcm: Using device system time as fallback time source.
+2024/07/04 09:28:56.254 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404120554 <=> 2321 | 379754
+2024/07/04 09:28:56.254 S:W RXN_MSL_GetEphemerisRtcm: No EE available for constellation enum: 0. Debug code: 6016
+2024/07/04 09:34:39.722 S:I MSL Log opened.
+2024/07/04 09:34:39.722 S:T MSL_SystemInitializeAction: Successful in creating mWakePipe
+2024/07/04 09:34:39.722 S:T MSL_SystemInitializeAction: mWakePipe[0] = (4)
+2024/07/04 09:34:39.722 S:T MSL_SystemInitializeAction: mWakePipe[1] = (5)
+2024/07/04 09:34:39.722 S:T RXN_SocketMsgThread: Entering select maxFds: 7.
+2024/07/04 09:34:39.722 S:I RXN_MSL_Initialize: MSL Ver: PG Lite MSL 1.0.6
+2024/07/04 09:34:39.723 S:I RXN_MSL_Initialize: PG Lite API Ver: PG Lite API 1.0.6
+2024/07/04 09:34:39.723 S:I RXN_MSL_Initialize: Will log for severity levels 0 - 4
+2024/07/04 09:34:39.723 S:T RXN_MSL_Initialize: Log_Max_Size: 10240
+2024/07/04 09:34:39.723 S:T RXN_MSL_Initialize: MSL_Log_Path: ./MSL_Log.txt
+2024/07/04 09:34:39.723 S:T RXN_MSL_Initialize: Customer_ID: C3LYMrPEvt
+2024/07/04 09:34:39.723 S:T RXN_MSL_Initialize: Customer_Key: Ga2qtbXLeMXwPjqQ
+2024/07/04 09:34:39.723 S:T RXN_MSL_Initialize: Device_ID: 02-83-3F-A3-43-A3
+2024/07/04 09:34:39.723 S:T RXN_MSL_Initialize: Pantry_Path: ./RXN
+2024/07/04 09:34:39.723 S:T RXN_MSL_Initialize: System_Check_Freq: 14400
+2024/07/04 09:34:39.723 S:T RXN_MSL_Initialize: Startup_Data_Wait_Duration: 10
+2024/07/04 09:34:39.723 S:T RXN_MSL_Initialize: Seed_Host: starcourse.location.io
+2024/07/04 09:34:39.723 S:T RXN_MSL_Initialize: Seed_Port: 80
+2024/07/04 09:34:39.723 S:T RXN_MSL_Initialize: Respect_Data_Settings: 1
+2024/07/04 09:34:39.723 S:T RXN_MSL_Initialize: Seed_Retry_Period: 60
+2024/07/04 09:34:39.723 S:T RXN_MSL_Initialize: Seed_Retry_Max: 3
+2024/07/04 09:34:39.723 S:T RXN_MSL_Initialize: Seed_Retry_Timer: 86400
+2024/07/04 09:34:39.723 S:T RXN_MSL_Initialize: Seed_Filename: f1e1G7C7.pgl
+2024/07/04 09:34:39.723 S:T RXN_MSL_Initialize: Seed_Update_Age: 172800
+2024/07/04 09:34:39.723 S:T RXN_MSL_Initialize: Seed_Update_Age_Offset: 21600
+2024/07/04 09:34:39.723 S:T RXN_MSL_Initialize: SNTP_Host: hk.pool.ntp.org
+2024/07/04 09:34:39.723 S:T RXN_MSL_Initialize: SNTP_Port: 123
+2024/07/04 09:34:39.723 S:T RXN_MSL_Initialize: SNTP_GPSTime_Uncert_Thresh: 5000
+2024/07/04 09:34:39.723 S:T RXN_MSL_Initialize: SNTP_Retry_Period: 60
+2024/07/04 09:34:39.723 S:T RXN_MSL_Initialize: SNTP_Retry_Max: 3
+2024/07/04 09:34:39.723 S:T RXN_MSL_Initialize: SNTP_Retry_Timer: 86400
+2024/07/04 09:34:39.723 S:T RXN_MSL_Initialize: Constel_Config: GPS 
+2024/07/04 09:34:39.723 S:T MSL_SetNextSystemEvent: Event 6 occurred.
+2024/07/04 09:34:39.723 S:I handleEvent: Received state 0 in event 6
+2024/07/04 09:34:39.723 S:I handleEvent: Network access available.
+2024/07/04 09:34:39.723 S:I handleEvent: Exiting timeout early.
+2024/07/04 09:34:39.723 S:T MSL_WakeUpWork: write to mWakePipe
+2024/07/04 09:34:39.723 S:T MSL_WakeUpWork: write to mWakePipe SUCCESS
+2024/07/04 09:34:39.724 S:I RXN_MSL_Work: Running state machine...
+2024/07/04 09:34:39.724 S:T MSL_RunStateMachine: state 2
+2024/07/04 09:34:39.724 S:I Received event 0 in state 2
+2024/07/04 09:34:39.724 S:I MSL_SNTPRequestAction: SNTP request made. Attempt: 1
+2024/07/04 09:34:39.724 S:T MSL_TimeoutAction: Timeout during state 3.
+2024/07/04 09:34:39.724 S:T MSL_Timeout: mWakePipe[0] = (4)
+2024/07/04 09:34:39.724 S:T MSL_Timeout: mWakePipe[1] = (5)
+2024/07/04 09:34:39.724 S:T RXN_SocketMsgThread: Command: 116 received from main thread.
+2024/07/04 09:34:39.724 S:T handleCommand: event: 116
+2024/07/04 09:34:39.724 S:T MSL_Timeout: Enter select for 60 seconds.
+2024/07/04 09:34:49.723 S:I MSL_GetBestGPSTime: Fallback to using system time.
+2024/07/04 09:34:49.723 S:W leapSecRolloverCheck: RXN API configuration file is unavailable. Debug code: 6015
+2024/07/04 09:34:49.723 S:W RXN_MSL_GetEphemerisRtcm: Both receiver and SNTP not acceptable.
+2024/07/04 09:34:49.723 S:W RXN_MSL_GetEphemerisRtcm: Using device system time as fallback time source.
+2024/07/04 09:34:49.723 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404120907 <=> 2321 | 380107
+2024/07/04 09:34:49.723 S:W RXN_MSL_GetEphemerisRtcm: No EE available for constellation enum: 0. Debug code: 6016
+2024/07/04 09:34:49.723 S:I MSL_GetBestGPSTime: Fallback to using system time.
+2024/07/04 09:34:49.723 S:W leapSecRolloverCheck: RXN API configuration file is unavailable. Debug code: 6015
+2024/07/04 09:34:49.723 S:W RXN_MSL_GetEphemerisRtcm: Both receiver and SNTP not acceptable.
+2024/07/04 09:34:49.723 S:W RXN_MSL_GetEphemerisRtcm: Using device system time as fallback time source.
+2024/07/04 09:34:49.723 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404120907 <=> 2321 | 380107
+2024/07/04 09:34:49.723 S:W RXN_MSL_GetEphemerisRtcm: No EE available for constellation enum: 0. Debug code: 6016
+2024/07/04 09:46:54.763 S:I MSL Log opened.
+2024/07/04 09:46:54.763 S:T RXN_SocketMsgThread: Entering select maxFds: 5.
+2024/07/04 09:46:54.763 S:T MSL_SystemInitializeAction: Successful in creating mWakePipe
+2024/07/04 09:46:54.763 S:T MSL_SystemInitializeAction: mWakePipe[0] = (6)
+2024/07/04 09:46:54.764 S:T MSL_SystemInitializeAction: mWakePipe[1] = (7)
+2024/07/04 09:46:54.764 S:I RXN_MSL_Initialize: MSL Ver: PG Lite MSL 1.0.6
+2024/07/04 09:46:54.764 S:I RXN_MSL_Initialize: PG Lite API Ver: PG Lite API 1.0.6
+2024/07/04 09:46:54.764 S:I RXN_MSL_Initialize: Will log for severity levels 0 - 4
+2024/07/04 09:46:54.764 S:T RXN_MSL_Initialize: Log_Max_Size: 10240
+2024/07/04 09:46:54.764 S:T RXN_MSL_Initialize: MSL_Log_Path: ./MSL_Log.txt
+2024/07/04 09:46:54.764 S:T RXN_MSL_Initialize: Customer_ID: C3LYMrPEvt
+2024/07/04 09:46:54.764 S:T RXN_MSL_Initialize: Customer_Key: Ga2qtbXLeMXwPjqQ
+2024/07/04 09:46:54.764 S:T RXN_MSL_Initialize: Device_ID: 02-83-3F-A3-43-A3
+2024/07/04 09:46:54.764 S:T RXN_MSL_Initialize: Pantry_Path: ./RXN
+2024/07/04 09:46:54.764 S:T RXN_MSL_Initialize: System_Check_Freq: 14400
+2024/07/04 09:46:54.764 S:T RXN_MSL_Initialize: Startup_Data_Wait_Duration: 10
+2024/07/04 09:46:54.764 S:T RXN_MSL_Initialize: Seed_Host: starcourse.location.io
+2024/07/04 09:46:54.764 S:T RXN_MSL_Initialize: Seed_Port: 80
+2024/07/04 09:46:54.764 S:T RXN_MSL_Initialize: Respect_Data_Settings: 1
+2024/07/04 09:46:54.764 S:T RXN_MSL_Initialize: Seed_Retry_Period: 60
+2024/07/04 09:46:54.764 S:T RXN_MSL_Initialize: Seed_Retry_Max: 3
+2024/07/04 09:46:54.764 S:T RXN_MSL_Initialize: Seed_Retry_Timer: 86400
+2024/07/04 09:46:54.764 S:T RXN_MSL_Initialize: Seed_Filename: f1e1G7C7.pgl
+2024/07/04 09:46:54.764 S:T RXN_MSL_Initialize: Seed_Update_Age: 172800
+2024/07/04 09:46:54.764 S:T RXN_MSL_Initialize: Seed_Update_Age_Offset: 21600
+2024/07/04 09:46:54.764 S:T RXN_MSL_Initialize: SNTP_Host: hk.pool.ntp.org
+2024/07/04 09:46:54.764 S:T RXN_MSL_Initialize: SNTP_Port: 123
+2024/07/04 09:46:54.764 S:T RXN_MSL_Initialize: SNTP_GPSTime_Uncert_Thresh: 5000
+2024/07/04 09:46:54.764 S:T RXN_MSL_Initialize: SNTP_Retry_Period: 60
+2024/07/04 09:46:54.764 S:T RXN_MSL_Initialize: SNTP_Retry_Max: 3
+2024/07/04 09:46:54.764 S:T RXN_MSL_Initialize: SNTP_Retry_Timer: 86400
+2024/07/04 09:46:54.764 S:T RXN_MSL_Initialize: Constel_Config: GPS 
+2024/07/04 09:46:54.764 S:T MSL_SetNextSystemEvent: Event 6 occurred.
+2024/07/04 09:46:54.764 S:I handleEvent: Received state 0 in event 6
+2024/07/04 09:46:54.764 S:I handleEvent: Network access available.
+2024/07/04 09:46:54.764 S:I handleEvent: Exiting timeout early.
+2024/07/04 09:46:54.764 S:T MSL_WakeUpWork: write to mWakePipe
+2024/07/04 09:46:54.764 S:T MSL_WakeUpWork: write to mWakePipe SUCCESS
+2024/07/04 09:46:54.766 S:I RXN_MSL_Work: Running state machine...
+2024/07/04 09:46:54.766 S:T MSL_RunStateMachine: state 2
+2024/07/04 09:46:54.766 S:I Received event 0 in state 2
+2024/07/04 09:46:54.766 S:I MSL_SNTPRequestAction: SNTP request made. Attempt: 1
+2024/07/04 09:46:54.766 S:T MSL_TimeoutAction: Timeout during state 3.
+2024/07/04 09:46:54.766 S:T MSL_Timeout: mWakePipe[0] = (6)
+2024/07/04 09:46:54.766 S:T MSL_Timeout: mWakePipe[1] = (7)
+2024/07/04 09:46:54.766 S:T RXN_SocketMsgThread: Command: 116 received from main thread.
+2024/07/04 09:46:54.766 S:T handleCommand: event: 116
+2024/07/04 09:46:54.766 S:T MSL_Timeout: Enter select for 60 seconds.
+2024/07/04 09:47:04.765 S:I MSL_GetBestGPSTime: Fallback to using system time.
+2024/07/04 09:47:04.765 S:W leapSecRolloverCheck: RXN API configuration file is unavailable. Debug code: 6015
+2024/07/04 09:47:04.765 S:W RXN_MSL_GetEphemerisRtcm: Both receiver and SNTP not acceptable.
+2024/07/04 09:47:04.765 S:W RXN_MSL_GetEphemerisRtcm: Using device system time as fallback time source.
+2024/07/04 09:47:04.765 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404121642 <=> 2321 | 380842
+2024/07/04 09:47:04.765 S:W RXN_MSL_GetEphemerisRtcm: No EE available for constellation enum: 0. Debug code: 6016
+2024/07/04 09:47:04.765 S:I MSL_GetBestGPSTime: Fallback to using system time.
+2024/07/04 09:47:04.765 S:W leapSecRolloverCheck: RXN API configuration file is unavailable. Debug code: 6015
+2024/07/04 09:47:04.765 S:W RXN_MSL_GetEphemerisRtcm: Both receiver and SNTP not acceptable.
+2024/07/04 09:47:04.765 S:W RXN_MSL_GetEphemerisRtcm: Using device system time as fallback time source.
+2024/07/04 09:47:04.765 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404121642 <=> 2321 | 380842
+2024/07/04 09:47:04.765 S:W RXN_MSL_GetEphemerisRtcm: No EE available for constellation enum: 0. Debug code: 6016
+2024/07/04 09:47:56.116 S:I MSL Log opened.
+2024/07/04 09:47:56.116 S:T RXN_SocketMsgThread: Entering select maxFds: 5.
+2024/07/04 09:47:56.116 S:T MSL_SystemInitializeAction: Successful in creating mWakePipe
+2024/07/04 09:47:56.116 S:T MSL_SystemInitializeAction: mWakePipe[0] = (6)
+2024/07/04 09:47:56.116 S:T MSL_SystemInitializeAction: mWakePipe[1] = (7)
+2024/07/04 09:47:56.116 S:I RXN_MSL_Initialize: MSL Ver: PG Lite MSL 1.0.6
+2024/07/04 09:47:56.116 S:I RXN_MSL_Initialize: PG Lite API Ver: PG Lite API 1.0.6
+2024/07/04 09:47:56.117 S:I RXN_MSL_Initialize: Will log for severity levels 0 - 4
+2024/07/04 09:47:56.117 S:T RXN_MSL_Initialize: Log_Max_Size: 10240
+2024/07/04 09:47:56.117 S:T RXN_MSL_Initialize: MSL_Log_Path: ./MSL_Log.txt
+2024/07/04 09:47:56.117 S:T RXN_MSL_Initialize: Customer_ID: C3LYMrPEvt
+2024/07/04 09:47:56.117 S:T RXN_MSL_Initialize: Customer_Key: Ga2qtbXLeMXwPjqQ
+2024/07/04 09:47:56.117 S:T RXN_MSL_Initialize: Device_ID: 02-83-3F-A3-43-A3
+2024/07/04 09:47:56.117 S:T RXN_MSL_Initialize: Pantry_Path: ./RXN
+2024/07/04 09:47:56.117 S:T RXN_MSL_Initialize: System_Check_Freq: 14400
+2024/07/04 09:47:56.117 S:T RXN_MSL_Initialize: Startup_Data_Wait_Duration: 10
+2024/07/04 09:47:56.117 S:T RXN_MSL_Initialize: Seed_Host: starcourse.location.io
+2024/07/04 09:47:56.117 S:T RXN_MSL_Initialize: Seed_Port: 80
+2024/07/04 09:47:56.117 S:T RXN_MSL_Initialize: Respect_Data_Settings: 1
+2024/07/04 09:47:56.117 S:T RXN_MSL_Initialize: Seed_Retry_Period: 60
+2024/07/04 09:47:56.117 S:T RXN_MSL_Initialize: Seed_Retry_Max: 3
+2024/07/04 09:47:56.117 S:T RXN_MSL_Initialize: Seed_Retry_Timer: 86400
+2024/07/04 09:47:56.117 S:T RXN_MSL_Initialize: Seed_Filename: f1e1G7C7.pgl
+2024/07/04 09:47:56.117 S:T RXN_MSL_Initialize: Seed_Update_Age: 172800
+2024/07/04 09:47:56.117 S:T RXN_MSL_Initialize: Seed_Update_Age_Offset: 21600
+2024/07/04 09:47:56.117 S:T RXN_MSL_Initialize: SNTP_Host: hk.pool.ntp.org
+2024/07/04 09:47:56.117 S:T RXN_MSL_Initialize: SNTP_Port: 123
+2024/07/04 09:47:56.117 S:T RXN_MSL_Initialize: SNTP_GPSTime_Uncert_Thresh: 5000
+2024/07/04 09:47:56.117 S:T RXN_MSL_Initialize: SNTP_Retry_Period: 60
+2024/07/04 09:47:56.117 S:T RXN_MSL_Initialize: SNTP_Retry_Max: 3
+2024/07/04 09:47:56.117 S:T RXN_MSL_Initialize: SNTP_Retry_Timer: 86400
+2024/07/04 09:47:56.117 S:T RXN_MSL_Initialize: Constel_Config: GPS 
+2024/07/04 09:47:56.117 S:T MSL_SetNextSystemEvent: Event 6 occurred.
+2024/07/04 09:47:56.117 S:I handleEvent: Received state 0 in event 6
+2024/07/04 09:47:56.117 S:I handleEvent: Network access available.
+2024/07/04 09:47:56.117 S:I handleEvent: Exiting timeout early.
+2024/07/04 09:47:56.117 S:T MSL_WakeUpWork: write to mWakePipe
+2024/07/04 09:47:56.117 S:T MSL_WakeUpWork: write to mWakePipe SUCCESS
+2024/07/04 09:47:56.118 S:I RXN_MSL_Work: Running state machine...
+2024/07/04 09:47:56.119 S:T MSL_RunStateMachine: state 2
+2024/07/04 09:47:56.119 S:I Received event 0 in state 2
+2024/07/04 09:47:56.119 S:I MSL_SNTPRequestAction: SNTP request made. Attempt: 1
+2024/07/04 09:47:56.119 S:T MSL_TimeoutAction: Timeout during state 3.
+2024/07/04 09:47:56.119 S:T MSL_Timeout: mWakePipe[0] = (6)
+2024/07/04 09:47:56.119 S:T MSL_Timeout: mWakePipe[1] = (7)
+2024/07/04 09:47:56.119 S:T RXN_SocketMsgThread: Command: 116 received from main thread.
+2024/07/04 09:47:56.119 S:T MSL_Timeout: Enter select for 60 seconds.
+2024/07/04 09:47:56.119 S:T handleCommand: event: 116
+2024/07/04 09:48:06.117 S:I MSL_GetBestGPSTime: Fallback to using system time.
+2024/07/04 09:48:06.118 S:W leapSecRolloverCheck: RXN API configuration file is unavailable. Debug code: 6015
+2024/07/04 09:48:06.118 S:W RXN_MSL_GetEphemerisRtcm: Both receiver and SNTP not acceptable.
+2024/07/04 09:48:06.118 S:W RXN_MSL_GetEphemerisRtcm: Using device system time as fallback time source.
+2024/07/04 09:48:06.118 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404121704 <=> 2321 | 380904
+2024/07/04 09:48:06.118 S:W RXN_MSL_GetEphemerisRtcm: No EE available for constellation enum: 0. Debug code: 6016
+2024/07/04 09:48:06.118 S:I MSL_GetBestGPSTime: Fallback to using system time.
+2024/07/04 09:48:06.118 S:W leapSecRolloverCheck: RXN API configuration file is unavailable. Debug code: 6015
+2024/07/04 09:48:06.118 S:W RXN_MSL_GetEphemerisRtcm: Both receiver and SNTP not acceptable.
+2024/07/04 09:48:06.118 S:W RXN_MSL_GetEphemerisRtcm: Using device system time as fallback time source.
+2024/07/04 09:48:06.118 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404121704 <=> 2321 | 380904
+2024/07/04 09:48:06.118 S:W RXN_MSL_GetEphemerisRtcm: No EE available for constellation enum: 0. Debug code: 6016
+2024/07/05 09:41:58.036 S:I MSL Log opened.
+2024/07/05 09:41:58.037 S:T RXN_SocketMsgThread: Entering select maxFds: 5.
+2024/07/05 09:41:58.037 S:T MSL_SystemInitializeAction: Successful in creating mWakePipe
+2024/07/05 09:41:58.037 S:T MSL_SystemInitializeAction: mWakePipe[0] = (6)
+2024/07/05 09:41:58.037 S:T MSL_SystemInitializeAction: mWakePipe[1] = (7)
+2024/07/05 09:41:58.037 S:I RXN_MSL_Initialize: MSL Ver: PG Lite MSL 1.0.6
+2024/07/05 09:41:58.037 S:I RXN_MSL_Initialize: PG Lite API Ver: PG Lite API 1.0.6
+2024/07/05 09:41:58.037 S:I RXN_MSL_Initialize: Will log for severity levels 0 - 4
+2024/07/05 09:41:58.037 S:T RXN_MSL_Initialize: Log_Max_Size: 10240
+2024/07/05 09:41:58.037 S:T RXN_MSL_Initialize: MSL_Log_Path: ./MSL_Log.txt
+2024/07/05 09:41:58.037 S:T RXN_MSL_Initialize: Customer_ID: C3LYMrPEvt
+2024/07/05 09:41:58.037 S:T RXN_MSL_Initialize: Customer_Key: Ga2qtbXLeMXwPjqQ
+2024/07/05 09:41:58.037 S:T RXN_MSL_Initialize: Device_ID: 02-83-3F-A3-43-A3
+2024/07/05 09:41:58.037 S:T RXN_MSL_Initialize: Pantry_Path: ./RXN
+2024/07/05 09:41:58.037 S:T RXN_MSL_Initialize: System_Check_Freq: 14400
+2024/07/05 09:41:58.037 S:T RXN_MSL_Initialize: Startup_Data_Wait_Duration: 10
+2024/07/05 09:41:58.037 S:T RXN_MSL_Initialize: Seed_Host: starcourse.location.io
+2024/07/05 09:41:58.037 S:T RXN_MSL_Initialize: Seed_Port: 80
+2024/07/05 09:41:58.037 S:T RXN_MSL_Initialize: Respect_Data_Settings: 1
+2024/07/05 09:41:58.037 S:T RXN_MSL_Initialize: Seed_Retry_Period: 60
+2024/07/05 09:41:58.038 S:T RXN_MSL_Initialize: Seed_Retry_Max: 3
+2024/07/05 09:41:58.038 S:T RXN_MSL_Initialize: Seed_Retry_Timer: 86400
+2024/07/05 09:41:58.038 S:T RXN_MSL_Initialize: Seed_Filename: f1e1G7C7.pgl
+2024/07/05 09:41:58.038 S:T RXN_MSL_Initialize: Seed_Update_Age: 172800
+2024/07/05 09:41:58.038 S:T RXN_MSL_Initialize: Seed_Update_Age_Offset: 21600
+2024/07/05 09:41:58.038 S:T RXN_MSL_Initialize: SNTP_Host: hk.pool.ntp.org
+2024/07/05 09:41:58.038 S:T RXN_MSL_Initialize: SNTP_Port: 123
+2024/07/05 09:41:58.038 S:T RXN_MSL_Initialize: SNTP_GPSTime_Uncert_Thresh: 5000
+2024/07/05 09:41:58.038 S:T RXN_MSL_Initialize: SNTP_Retry_Period: 60
+2024/07/05 09:41:58.038 S:T RXN_MSL_Initialize: SNTP_Retry_Max: 3
+2024/07/05 09:41:58.038 S:T RXN_MSL_Initialize: SNTP_Retry_Timer: 86400
+2024/07/05 09:41:58.038 S:T RXN_MSL_Initialize: Constel_Config: GPS 
+2024/07/05 09:41:58.038 S:T MSL_SetNextSystemEvent: Event 6 occurred.
+2024/07/05 09:41:58.038 S:I handleEvent: Received state 0 in event 6
+2024/07/05 09:41:58.038 S:I handleEvent: Network access available.
+2024/07/05 09:41:58.038 S:I handleEvent: Exiting timeout early.
+2024/07/05 09:41:58.038 S:T MSL_WakeUpWork: write to mWakePipe
+2024/07/05 09:41:58.038 S:T MSL_WakeUpWork: write to mWakePipe SUCCESS
+2024/07/05 09:41:58.039 S:I RXN_MSL_Work: Running state machine...
+2024/07/05 09:41:58.039 S:T MSL_RunStateMachine: state 2
+2024/07/05 09:41:58.039 S:I Received event 0 in state 2
+2024/07/05 09:41:58.039 S:I MSL_SNTPRequestAction: SNTP request made. Attempt: 1
+2024/07/05 09:41:58.039 S:T MSL_TimeoutAction: Timeout during state 3.
+2024/07/05 09:41:58.039 S:T MSL_Timeout: mWakePipe[0] = (6)
+2024/07/05 09:41:58.039 S:T MSL_Timeout: mWakePipe[1] = (7)
+2024/07/05 09:41:58.039 S:T RXN_SocketMsgThread: Command: 116 received from main thread.
+2024/07/05 09:41:58.040 S:T handleCommand: event: 116
+2024/07/05 09:41:58.040 S:T MSL_Timeout: Enter select for 60 seconds.
+2024/07/05 09:42:08.038 S:I MSL_GetBestGPSTime: Fallback to using system time.
+2024/07/05 09:42:08.038 S:W leapSecRolloverCheck: RXN API configuration file is unavailable. Debug code: 6015
+2024/07/05 09:42:08.038 S:W RXN_MSL_GetEphemerisRtcm: Both receiver and SNTP not acceptable.
+2024/07/05 09:42:08.038 S:W RXN_MSL_GetEphemerisRtcm: Using device system time as fallback time source.
+2024/07/05 09:42:08.038 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404207746 <=> 2321 | 466946
+2024/07/05 09:42:08.038 S:W RXN_MSL_GetEphemerisRtcm: No EE available for constellation enum: 0. Debug code: 6016
+2024/07/05 09:42:08.039 S:I MSL_GetBestGPSTime: Fallback to using system time.
+2024/07/05 09:42:08.039 S:W leapSecRolloverCheck: RXN API configuration file is unavailable. Debug code: 6015
+2024/07/05 09:42:08.039 S:W RXN_MSL_GetEphemerisRtcm: Both receiver and SNTP not acceptable.
+2024/07/05 09:42:08.039 S:W RXN_MSL_GetEphemerisRtcm: Using device system time as fallback time source.
+2024/07/05 09:42:08.039 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404207746 <=> 2321 | 466946
+2024/07/05 09:42:08.039 S:W RXN_MSL_GetEphemerisRtcm: No EE available for constellation enum: 0. Debug code: 6016
+2024/07/05 09:47:26.280 S:I MSL Log opened.
+2024/07/05 09:47:26.281 S:T MSL_SystemInitializeAction: Successful in creating mWakePipe
+2024/07/05 09:47:26.281 S:T MSL_SystemInitializeAction: mWakePipe[0] = (6)
+2024/07/05 09:47:26.281 S:T MSL_SystemInitializeAction: mWakePipe[1] = (7)
+2024/07/05 09:47:26.281 S:T RXN_SocketMsgThread: Entering select maxFds: 5.
+2024/07/05 09:47:26.281 S:I RXN_MSL_Initialize: MSL Ver: PG Lite MSL 1.0.6
+2024/07/05 09:47:26.281 S:I RXN_MSL_Initialize: PG Lite API Ver: PG Lite API 1.0.6
+2024/07/05 09:47:26.281 S:I RXN_MSL_Initialize: Will log for severity levels 0 - 4
+2024/07/05 09:47:26.281 S:T RXN_MSL_Initialize: Log_Max_Size: 10240
+2024/07/05 09:47:26.281 S:T RXN_MSL_Initialize: MSL_Log_Path: ./MSL_Log.txt
+2024/07/05 09:47:26.281 S:T RXN_MSL_Initialize: Customer_ID: C3LYMrPEvt
+2024/07/05 09:47:26.281 S:T RXN_MSL_Initialize: Customer_Key: Ga2qtbXLeMXwPjqQ
+2024/07/05 09:47:26.281 S:T RXN_MSL_Initialize: Device_ID: 02-83-3F-A3-43-A3
+2024/07/05 09:47:26.281 S:T RXN_MSL_Initialize: Pantry_Path: ./RXN
+2024/07/05 09:47:26.281 S:T RXN_MSL_Initialize: System_Check_Freq: 14400
+2024/07/05 09:47:26.281 S:T RXN_MSL_Initialize: Startup_Data_Wait_Duration: 10
+2024/07/05 09:47:26.281 S:T RXN_MSL_Initialize: Seed_Host: starcourse.location.io
+2024/07/05 09:47:26.281 S:T RXN_MSL_Initialize: Seed_Port: 80
+2024/07/05 09:47:26.281 S:T RXN_MSL_Initialize: Respect_Data_Settings: 1
+2024/07/05 09:47:26.281 S:T RXN_MSL_Initialize: Seed_Retry_Period: 60
+2024/07/05 09:47:26.281 S:T RXN_MSL_Initialize: Seed_Retry_Max: 3
+2024/07/05 09:47:26.281 S:T RXN_MSL_Initialize: Seed_Retry_Timer: 86400
+2024/07/05 09:47:26.281 S:T RXN_MSL_Initialize: Seed_Filename: f1e1G7C7.pgl
+2024/07/05 09:47:26.281 S:T RXN_MSL_Initialize: Seed_Update_Age: 172800
+2024/07/05 09:47:26.281 S:T RXN_MSL_Initialize: Seed_Update_Age_Offset: 21600
+2024/07/05 09:47:26.281 S:T RXN_MSL_Initialize: SNTP_Host: hk.pool.ntp.org
+2024/07/05 09:47:26.281 S:T RXN_MSL_Initialize: SNTP_Port: 123
+2024/07/05 09:47:26.281 S:T RXN_MSL_Initialize: SNTP_GPSTime_Uncert_Thresh: 5000
+2024/07/05 09:47:26.281 S:T RXN_MSL_Initialize: SNTP_Retry_Period: 60
+2024/07/05 09:47:26.281 S:T RXN_MSL_Initialize: SNTP_Retry_Max: 3
+2024/07/05 09:47:26.281 S:T RXN_MSL_Initialize: SNTP_Retry_Timer: 86400
+2024/07/05 09:47:26.282 S:T RXN_MSL_Initialize: Constel_Config: GPS 
+2024/07/05 09:47:26.282 S:T MSL_SetNextSystemEvent: Event 6 occurred.
+2024/07/05 09:47:26.282 S:I handleEvent: Received state 0 in event 6
+2024/07/05 09:47:26.282 S:I handleEvent: Network access available.
+2024/07/05 09:47:26.282 S:I handleEvent: Exiting timeout early.
+2024/07/05 09:47:26.282 S:T MSL_WakeUpWork: write to mWakePipe
+2024/07/05 09:47:26.282 S:T MSL_WakeUpWork: write to mWakePipe SUCCESS
+2024/07/05 09:47:26.283 S:I RXN_MSL_Work: Running state machine...
+2024/07/05 09:47:26.283 S:T MSL_RunStateMachine: state 2
+2024/07/05 09:47:26.283 S:I Received event 0 in state 2
+2024/07/05 09:47:26.283 S:I MSL_SNTPRequestAction: SNTP request made. Attempt: 1
+2024/07/05 09:47:26.283 S:T RXN_SocketMsgThread: Command: 116 received from main thread.
+2024/07/05 09:47:26.283 S:T handleCommand: event: 116
+2024/07/05 09:47:26.283 S:T MSL_TimeoutAction: Timeout during state 3.
+2024/07/05 09:47:26.283 S:T MSL_Timeout: mWakePipe[0] = (6)
+2024/07/05 09:47:26.284 S:T MSL_Timeout: mWakePipe[1] = (7)
+2024/07/05 09:47:26.284 S:T MSL_Timeout: Enter select for 60 seconds.
+2024/07/05 09:47:36.282 S:I MSL_GetBestGPSTime: Fallback to using system time.
+2024/07/05 09:47:36.282 S:W leapSecRolloverCheck: RXN API configuration file is unavailable. Debug code: 6015
+2024/07/05 09:47:36.282 S:W RXN_MSL_GetEphemerisRtcm: Both receiver and SNTP not acceptable.
+2024/07/05 09:47:36.282 S:W RXN_MSL_GetEphemerisRtcm: Using device system time as fallback time source.
+2024/07/05 09:47:36.282 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208074 <=> 2321 | 467274
+2024/07/05 09:47:36.282 S:W RXN_MSL_GetEphemerisRtcm: No EE available for constellation enum: 0. Debug code: 6016
+2024/07/05 09:47:36.282 S:I MSL_GetBestGPSTime: Fallback to using system time.
+2024/07/05 09:47:36.282 S:W leapSecRolloverCheck: RXN API configuration file is unavailable. Debug code: 6015
+2024/07/05 09:47:36.282 S:W RXN_MSL_GetEphemerisRtcm: Both receiver and SNTP not acceptable.
+2024/07/05 09:47:36.282 S:W RXN_MSL_GetEphemerisRtcm: Using device system time as fallback time source.
+2024/07/05 09:47:36.282 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208074 <=> 2321 | 467274
+2024/07/05 09:47:36.282 S:W RXN_MSL_GetEphemerisRtcm: No EE available for constellation enum: 0. Debug code: 6016
+2024/07/05 09:49:36.905 S:I MSL Log opened.
+2024/07/05 09:49:36.905 S:T RXN_SocketMsgThread: Entering select maxFds: 5.
+2024/07/05 09:49:36.905 S:T MSL_SystemInitializeAction: Successful in creating mWakePipe
+2024/07/05 09:49:36.906 S:T MSL_SystemInitializeAction: mWakePipe[0] = (6)
+2024/07/05 09:49:36.906 S:T MSL_SystemInitializeAction: mWakePipe[1] = (7)
+2024/07/05 09:49:36.906 S:I RXN_MSL_Initialize: MSL Ver: PG Lite MSL 1.0.6
+2024/07/05 09:49:36.906 S:I RXN_MSL_Initialize: PG Lite API Ver: PG Lite API 1.0.6
+2024/07/05 09:49:36.906 S:I RXN_MSL_Initialize: Will log for severity levels 0 - 4
+2024/07/05 09:49:36.906 S:T RXN_MSL_Initialize: Log_Max_Size: 10240
+2024/07/05 09:49:36.906 S:T RXN_MSL_Initialize: MSL_Log_Path: ./MSL_Log.txt
+2024/07/05 09:49:36.906 S:T RXN_MSL_Initialize: Customer_ID: C3LYMrPEvt
+2024/07/05 09:49:36.906 S:T RXN_MSL_Initialize: Customer_Key: Ga2qtbXLeMXwPjqQ
+2024/07/05 09:49:36.906 S:T RXN_MSL_Initialize: Device_ID: 02-83-3F-A3-43-A3
+2024/07/05 09:49:36.906 S:T RXN_MSL_Initialize: Pantry_Path: ./RXN
+2024/07/05 09:49:36.906 S:T RXN_MSL_Initialize: System_Check_Freq: 14400
+2024/07/05 09:49:36.906 S:T RXN_MSL_Initialize: Startup_Data_Wait_Duration: 10
+2024/07/05 09:49:36.906 S:T RXN_MSL_Initialize: Seed_Host: starcourse.location.io
+2024/07/05 09:49:36.906 S:T RXN_MSL_Initialize: Seed_Port: 80
+2024/07/05 09:49:36.906 S:T RXN_MSL_Initialize: Respect_Data_Settings: 1
+2024/07/05 09:49:36.906 S:T RXN_MSL_Initialize: Seed_Retry_Period: 60
+2024/07/05 09:49:36.906 S:T RXN_MSL_Initialize: Seed_Retry_Max: 3
+2024/07/05 09:49:36.906 S:T RXN_MSL_Initialize: Seed_Retry_Timer: 86400
+2024/07/05 09:49:36.906 S:T RXN_MSL_Initialize: Seed_Filename: f1e1G7C7.pgl
+2024/07/05 09:49:36.906 S:T RXN_MSL_Initialize: Seed_Update_Age: 172800
+2024/07/05 09:49:36.906 S:T RXN_MSL_Initialize: Seed_Update_Age_Offset: 21600
+2024/07/05 09:49:36.906 S:T RXN_MSL_Initialize: SNTP_Host: hk.pool.ntp.org
+2024/07/05 09:49:36.906 S:T RXN_MSL_Initialize: SNTP_Port: 123
+2024/07/05 09:49:36.906 S:T RXN_MSL_Initialize: SNTP_GPSTime_Uncert_Thresh: 5000
+2024/07/05 09:49:36.906 S:T RXN_MSL_Initialize: SNTP_Retry_Period: 60
+2024/07/05 09:49:36.906 S:T RXN_MSL_Initialize: SNTP_Retry_Max: 3
+2024/07/05 09:49:36.906 S:T RXN_MSL_Initialize: SNTP_Retry_Timer: 86400
+2024/07/05 09:49:36.906 S:T RXN_MSL_Initialize: Constel_Config: GPS 
+2024/07/05 09:49:36.906 S:T MSL_SetNextSystemEvent: Event 6 occurred.
+2024/07/05 09:49:36.906 S:I handleEvent: Received state 0 in event 6
+2024/07/05 09:49:36.906 S:I handleEvent: Network access available.
+2024/07/05 09:49:36.906 S:I handleEvent: Exiting timeout early.
+2024/07/05 09:49:36.906 S:T MSL_WakeUpWork: write to mWakePipe
+2024/07/05 09:49:36.906 S:T MSL_WakeUpWork: write to mWakePipe SUCCESS
+2024/07/05 09:49:36.908 S:I RXN_MSL_Work: Running state machine...
+2024/07/05 09:49:36.908 S:T MSL_RunStateMachine: state 2
+2024/07/05 09:49:36.908 S:I Received event 0 in state 2
+2024/07/05 09:49:36.908 S:I MSL_SNTPRequestAction: SNTP request made. Attempt: 1
+2024/07/05 09:49:36.908 S:T RXN_SocketMsgThread: Command: 116 received from main thread.
+2024/07/05 09:49:36.908 S:T handleCommand: event: 116
+2024/07/05 09:49:36.908 S:T MSL_TimeoutAction: Timeout during state 3.
+2024/07/05 09:49:36.908 S:T MSL_Timeout: mWakePipe[0] = (6)
+2024/07/05 09:49:36.908 S:T MSL_Timeout: mWakePipe[1] = (7)
+2024/07/05 09:49:36.908 S:T MSL_Timeout: Enter select for 60 seconds.
+2024/07/05 09:49:37.117 S:T MSL_SetSNTPTime: GPS time set to: 1404208195 <=> 2321 | 467395
+2024/07/05 09:49:37.117 S:T MSL_SetNextSystemEvent: Event 1 occurred.
+2024/07/05 09:49:37.117 S:I handleEvent: Received state 3 in event 1
+2024/07/05 09:49:37.117 S:I handleEvent: Valid time obtained.
+2024/07/05 09:49:37.117 S:T sntpRetryReset: Has been called.
+2024/07/05 09:49:37.117 S:I handleEvent: Exiting timeout early.
+2024/07/05 09:49:37.117 S:T MSL_WakeUpWork: write to mWakePipe
+2024/07/05 09:49:37.117 S:T MSL_WakeUpWork: write to mWakePipe SUCCESS
+2024/07/05 09:49:37.117 S:T RXN_MsgSocketThread: Handled event 116. MSL_HandleEvent returned: 0.
+2024/07/05 09:49:37.117 S:T MSL_Timeout: mWakePipe caused select release...
+2024/07/05 09:49:37.117 S:T RXN_SocketMsgThread: Entering select maxFds: 5.
+2024/07/05 09:49:37.118 S:T MSL_Timeout: Wake pulse received.
+2024/07/05 09:49:37.118 S:T MSL_TimeoutAction: Exited timeout because event occurred.
+2024/07/05 09:49:37.119 S:I RXN_MSL_Work: Running state machine...
+2024/07/05 09:49:37.119 S:T MSL_RunStateMachine: state 4
+2024/07/05 09:49:37.119 S:I Received event 0 in state 4
+2024/07/05 09:49:37.119 S:W leapSecRolloverCheck: RXN API configuration file is unavailable. Debug code: 6015
+2024/07/05 09:49:37.119 S:W MSL_CheckSeedStatus: No EE info for constellation enum: 0. Debug code: 6016
+2024/07/05 09:49:37.119 S:T seedCheckAction: seedState: 1. Constellation enum: 0.
+2024/07/05 09:49:37.119 S:I downloadSeed: Initiate seed download.
+2024/07/05 09:49:37.119 S:T MSL_UpdateSeed: Seed request attempt made.
+2024/07/05 09:49:37.119 S:I downloadSeed: Seed download request made. Attempt: 1.
+2024/07/05 09:49:37.119 S:T MSL_TimeoutAction: Timeout during state 5.
+2024/07/05 09:49:37.119 S:T MSL_Timeout: mWakePipe[0] = (6)
+2024/07/05 09:49:37.119 S:T MSL_Timeout: mWakePipe[1] = (7)
+2024/07/05 09:49:37.119 S:T RXN_SocketMsgThread: Command: 115 received from main thread.
+2024/07/05 09:49:37.120 S:T handleCommand: event: 115
+2024/07/05 09:49:37.119 S:T MSL_Timeout: Enter select for 60 seconds.
+2024/07/05 09:49:37.127 S:T MSL_GenSeedReqMsg: reqMsg: GET /C3LYMrPEvt/f1e1G7C7.pgl?device=02-83-3F-A3-43-A3 HTTP/1.1
+User-Agent: _REQUEST
+Host: starcourse.location.io
+
+
+2024/07/05 09:49:38.695 S:T MSL_ScktReadBytes: Read 492 bytes.
+2024/07/05 09:49:39.295 S:T MSL_ScktReadBytes: Read 91181 bytes.
+2024/07/05 09:49:39.896 S:T MSL_ScktReadBytes: Read 23513 bytes.
+2024/07/05 09:49:39.907 S:I sendUpdateSeedRequest: Decoded a PG Lite seed response msg successfully.
+2024/07/05 09:49:39.907 S:T MSL_SetNextSystemEvent: Event 2 occurred.
+2024/07/05 09:49:39.907 S:I handleEvent: Received state 5 in event 2
+2024/07/05 09:49:39.907 S:I handleEvent: New seed obtained.
+2024/07/05 09:49:39.908 S:I handleEvent: Exiting timeout early.
+2024/07/05 09:49:39.908 S:T MSL_WakeUpWork: write to mWakePipe
+2024/07/05 09:49:39.908 S:T MSL_WakeUpWork: write to mWakePipe SUCCESS
+2024/07/05 09:49:39.908 S:T RXN_MsgSocketThread: Handled event 115. MSL_HandleEvent returned: 0.
+2024/07/05 09:49:39.908 S:T MSL_Timeout: mWakePipe caused select release...
+2024/07/05 09:49:39.908 S:T RXN_SocketMsgThread: Entering select maxFds: 5.
+2024/07/05 09:49:39.908 S:T MSL_Timeout: Wake pulse received.
+2024/07/05 09:49:39.908 S:T MSL_TimeoutAction: Exited timeout because event occurred.
+2024/07/05 09:49:39.909 S:I RXN_MSL_Work: Running state machine...
+2024/07/05 09:49:39.909 S:T MSL_RunStateMachine: state 1
+2024/07/05 09:49:39.909 S:I Received event 0 in state 1
+2024/07/05 09:49:39.909 S:T MSL_TimeoutAction: Timeout during state 1.
+2024/07/05 09:49:39.909 S:T MSL_Timeout: mWakePipe[0] = (6)
+2024/07/05 09:49:39.909 S:T MSL_Timeout: mWakePipe[1] = (7)
+2024/07/05 09:49:39.909 S:T MSL_Timeout: Enter select for 14400 seconds.
+2024/07/05 09:49:46.907 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:49:46.907 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208205 <=> 2321 | 467405
+2024/07/05 09:49:46.908 S:I logGpsEphemeris: 1019 2 273 0 1 | -149 132 29475 0 64 | -869618 388 2525 12807 1697892302 | 2320 137556101 -409 2702023221 29475 | 193 894631040 -22 661057761 12421 | -797145949 -23047 -38 0 0 | 1
+2024/07/05 09:49:46.908 S:I logGpsEphemeris: 1019 3 273 0 1 | -1004 132 29475 0 149 | 954767 388 -4628 10743 -727925710 | -4063 48701019 2492 2702025786 29475 | 43 1671097136 136 673393656 9665 | 762121581 -22102 3 0 0 | 1
+2024/07/05 09:49:46.908 S:I logGpsEphemeris: 1019 4 273 0 1 | 1492 132 29475 0 69 | 853481 388 -1831 11291 1330747749 | -1565 24654816 5695 2702040970 29475 | -20 -1887127232 22 660007644 5692 | -2028051229 -21162 -10 0 0 | 1
+2024/07/05 09:49:46.908 S:I logGpsEphemeris: 1019 5 273 0 1 | -791 132 29475 0 -12 | -383730 388 -4319 11336 1798572292 | -3807 51083352 2200 2701994013 29475 | 54 1635651008 -13 664443318 9736 | 873979575 -22094 -23 0 0 | 1
+2024/07/05 09:49:46.908 S:I logGpsEphemeris: 1019 6 273 0 1 | -65 132 29475 0 -196 | 385960 388 1712 11399 219219626 | 1375 25233668 121 2701996354 29475 | 10 962449846 -2 676359995 12548 | -483205607 -22775 8 0 0 | 1
+2024/07/05 09:49:46.908 S:I logGpsEphemeris: 1019 7 273 4 1 | 1092 132 29475 0 74 | -164291 388 366 14600 -389777615 | 589 160280677 3068 2701978973 29475 | -38 -1194990714 212 649271376 8633 | -1443220969 -23576 -24 0 0 | 1
+2024/07/05 09:49:46.908 S:I logGpsEphemeris: 1019 8 273 0 1 | -174 132 29475 0 148 | 560292 388 4670 12669 1557743727 | 4027 81449864 5133 2702002182 29475 | -219 212569640 13 651411354 6187 | 250784462 -22019 10 0 0 | 1
+2024/07/05 09:49:46.908 S:I logGpsEphemeris: 1019 9 273 0 1 | 1384 132 29475 0 131 | 560657 388 -2071 11485 1888869156 | -1757 24323761 5637 2701992481 29475 | -30 -1928003176 22 655673244 5668 | 1345309703 -21082 2 0 0 | 1
+2024/07/05 09:49:46.908 S:I logGpsEphemeris: 1019 10 273 0 1 | -717 132 29475 0 -82 | -125676 388 -4947 10176 -1387463316 | -4270 80727971 2873 2702019459 29475 | -1 1669345745 -116 673158094 9237 | -1623960464 -21297 5 0 0 | 1
+2024/07/05 09:49:46.908 S:I logGpsEphemeris: 1019 11 273 0 1 | -71 132 29475 0 -64 | -1501304 388 1284 12811 1078513171 | 1151 12258532 -165 2702041818 29475 | -7 984470830 59 660331916 12491 | -1774513304 -23499 -19 0 0 | 1
+2024/07/05 09:49:46.908 S:I logGpsEphemeris: 1019 12 273 0 1 | -1545 132 29475 0 -28 | -1116161 388 396 12905 -891714387 | 538 74674140 4957 2701985530 29475 | -47 -432087522 198 657684557 6670 | 995766051 -21964 -27 0 0 | 1
+2024/07/05 09:49:46.908 S:I logGpsEphemeris: 1019 13 273 0 1 | 1852 132 29475 0 22 | 1422737 388 -1181 11009 1368949255 | -1024 70950283 5549 2702003074 29475 | -93 -1814240596 -156 664395169 5956 | 636420330 -21206 -24 0 0 | 1
+2024/07/05 09:49:46.908 S:I logGpsEphemeris: 1019 14 273 0 1 | -1406 132 29475 0 79 | 948240 388 -91 14012 -928777224 | -143 40216516 4534 2702020355 29475 | 24 -462873622 -21 646259554 6581 | -1968875963 -22472 -17 0 0 | 1
+2024/07/05 09:49:46.908 S:I logGpsEphemeris: 1019 15 273 0 1 | 1115 132 29475 0 37 | 381526 388 -2429 13206 901959658 | -2240 135779309 5976 2702013756 29475 | -209 -2016075759 -172 639934931 5091 | 904312663 -22762 -22 0 0 | 1
+2024/07/05 09:49:46.908 S:I logGpsEphemeris: 1019 16 273 0 1 | -1611 132 29475 0 94 | -526794 388 583 12665 -2105032637 | 344 118738683 5031 2701962426 29475 | 7 -419907999 -223 657327364 6430 | 573299240 -21177 -22 0 0 | 1
+2024/07/05 09:49:46.908 S:I logGpsEphemeris: 1019 17 273 0 1 | -337 132 29475 0 -61 | 1467519 388 4514 11452 1540882527 | 3944 115154035 4366 2702056296 29475 | 134 277701386 -45 662179741 6939 | -899745331 -21215 -24 0 0 | 1
+2024/07/05 09:49:46.908 S:I logGpsEphemeris: 1019 18 273 0 1 | -257 132 29475 0 -38 | -1359626 388 1160 12477 222551269 | 878 37021280 -374 2701973742 29475 | 31 964857358 -12 666000448 12580 | -2083043842 -23431 -18 0 0 | 1
+2024/07/05 09:49:46.908 S:I logGpsEphemeris: 1019 19 273 0 1 | -9 132 29475 0 48 | 1086758 388 4540 11676 -1408246945 | 3998 85709861 4727 2702035377 29475 | -211 307969632 -9 661616744 6927 | 1766017205 -21824 -33 0 0 | 1
+2024/07/05 09:49:46.908 S:I logGpsEphemeris: 1019 20 273 0 1 | -861 132 29475 0 -4 | 801213 388 -3902 12717 480275204 | -3368 31593745 1560 2701949537 29475 | -47 1547114942 84 652360491 10277 | -1765619081 -23134 -18 0 0 | 1
+2024/07/05 09:49:46.908 S:I logGpsEphemeris: 1019 21 273 0 1 | -503 132 29475 0 -23 | 238290 388 2721 13189 1445731847 | 2579 216537579 -340 2702012765 29475 | 209 889556819 208 657137035 12366 | -377973916 -23298 -22 0 0 | 1
+2024/07/05 09:49:46.908 S:I logGpsEphemeris: 1019 22 273 0 1 | -1745 132 29475 0 -41 | -76973 388 210 12689 1906160331 | 131 122186097 4930 2702021701 29475 | 161 -417655084 94 656868549 6335 | -773895501 -21301 -24 0 0 | 1
+2024/07/05 09:49:46.908 S:I logGpsEphemeris: 1019 23 273 0 1 | -1029 132 29475 0 79 | 572352 388 -4517 10871 -611994143 | -4004 37321698 2710 2701969058 29475 | 111 1649405662 -95 669819083 9514 | -2026768747 -21933 -18 0 0 | 1
+2024/07/05 09:49:46.908 S:I logGpsEphemeris: 1019 24 273 0 1 | 908 132 29475 0 -17 | -1034385 388 690 15626 292129385 | 529 132611737 2967 2702022099 29475 | -112 -1261819747 111 638167877 8409 | 673670604 -24188 5 0 0 | 1
+2024/07/05 09:49:46.908 S:I logGpsEphemeris: 1019 25 273 0 1 | -1496 132 29475 0 4 | 1069845 388 44 13750 -931750756 | 220 99773494 4464 2702057405 29475 | 185 -491550155 188 649405949 6797 | 745431857 -22218 11 0 0 | 1
+2024/07/05 09:49:46.908 S:I logGpsEphemeris: 1019 26 273 0 1 | -1238 132 29475 0 -59 | 269349 388 -27 15085 -1461568519 | -270 76687910 4253 2702000445 29475 | 119 -534750541 -98 636217541 6698 | 370731900 -22812 14 0 0 | 1
+2024/07/05 09:49:46.908 S:I logGpsEphemeris: 1019 27 273 0 1 | -49 132 29475 0 -9 | -65126 388 4711 11902 1596452970 | 3947 107560864 4921 2702017687 29475 | -106 230879533 -201 657573613 6505 | 545547735 -21478 4 0 0 | 1
+2024/07/05 09:49:46.908 S:I logGpsEphemeris: 1019 28 273 0 1 | 1011 132 29475 0 -143 | -683471 388 175 13502 -1245142921 | 281 2487861 2841 2702004156 29475 | -2 -1217310299 3 656863751 8705 | 1061210466 -22368 -20 0 0 | 1
+2024/07/05 09:49:46.909 S:I logGpsEphemeris: 1019 29 273 0 1 | -45 132 29475 0 16 | -1269302 388 4492 11716 1547171769 | 4090 25863712 4281 2701958983 29475 | 85 288018034 55 663842782 7429 | 1777111728 -21873 -21 0 0 | 1
+2024/07/05 09:49:46.909 S:I logGpsEphemeris: 1019 30 273 0 1 | 1146 132 29475 0 56 | -779592 388 388 15317 -497993519 | 518 61765459 2714 2701974328 29475 | 57 -1194978162 61 639119553 8505 | -1673959632 -23535 9 0 0 | 1
+2024/07/05 09:49:46.909 S:I logGpsEphemeris: 1019 31 273 0 1 | 1030 132 29475 0 2 | -487445 388 194 13990 -1014639939 | 164 90037745 2443 2702042044 29475 | 153 -1180170647 -74 651976897 8779 | 470828186 -22426 -29 0 0 | 1
+2024/07/05 09:49:46.909 S:I logGpsEphemeris: 1019 32 273 0 1 | 1795 132 29475 0 15 | -1317803 388 -1839 11096 2047014774 | -1547 66762774 5883 2702022275 29475 | 16 -1917910288 3 657989931 5363 | -1455916277 -20758 2 0 0 | 1
+2024/07/05 09:49:46.909 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:49:46.909 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208205 <=> 2321 | 467405
+2024/07/05 09:49:46.910 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:49:46.911 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208205 <=> 2321 | 467405
+2024/07/05 09:49:46.912 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:49:46.912 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208205 <=> 2321 | 467405
+2024/07/05 09:49:46.914 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:49:46.914 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208205 <=> 2321 | 467405
+2024/07/05 09:49:46.916 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:49:46.916 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208205 <=> 2321 | 467405
+2024/07/05 09:49:46.918 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:49:46.918 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208205 <=> 2321 | 467405
+2024/07/05 09:49:46.920 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:49:46.920 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208205 <=> 2321 | 467405
+2024/07/05 09:49:46.922 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:49:46.922 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208205 <=> 2321 | 467405
+2024/07/05 09:49:46.923 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:49:46.924 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208205 <=> 2321 | 467405
+2024/07/05 09:49:46.925 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:49:46.926 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208205 <=> 2321 | 467405
+2024/07/05 09:49:46.928 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:49:46.928 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208205 <=> 2321 | 467405
+2024/07/05 09:49:46.932 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:49:46.932 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208205 <=> 2321 | 467405
+2024/07/05 09:49:46.937 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:49:46.937 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208205 <=> 2321 | 467405
+2024/07/05 09:49:46.940 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:49:46.940 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208205 <=> 2321 | 467405
+2024/07/05 09:49:46.942 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:49:46.942 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208205 <=> 2321 | 467405
+2024/07/05 09:49:46.944 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:49:46.944 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208205 <=> 2321 | 467405
+2024/07/05 09:49:46.946 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:49:46.946 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208205 <=> 2321 | 467405
+2024/07/05 09:49:46.947 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:49:46.948 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208205 <=> 2321 | 467405
+2024/07/05 09:49:46.949 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:49:46.949 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208205 <=> 2321 | 467405
+2024/07/05 09:49:46.951 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:49:46.951 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208205 <=> 2321 | 467405
+2024/07/05 09:49:46.952 S:I logBeidouEphemeris: 1042 1 965 15 -2228 | 0 58950 0 2586 7783567 | 0 -5733 4069 -451827236 -6548 | 1374638 52179 3404384950 58950 91 | -33617586 300 42290961 -47123 -52451201 | -662 -52 0 1
+2024/07/05 09:49:46.952 S:I logBeidouEphemeris: 1042 2 965 1 -2805 | 0 58950 0 34418 7113752 | 0 -982 4578 1588041901 -1277 | 7549342 55751 3404447848 58950 668 | 404735 -583 29165775 -50802 1446861292 | -1384 17 0 0
+2024/07/05 09:49:46.953 S:I logBeidouEphemeris: 1042 3 965 1 -2414 | 0 58950 0 65581 4420632 | 0 4187 4056 1441733036 4528 | 7390375 51625 3404486689 58950 737 | 26696659 85 38326479 -46719 1881864809 | -562 23 0 0
+2024/07/05 09:49:46.953 S:I logBeidouEphemeris: 1042 4 965 3 -2179 | 0 58950 0 -29431 -5465597 | 0 -873 -1678 266560066 -1034 | 3611282 51796 3404440093 58950 158 | 24853462 137 39131405 -46752 -644317083 | 4853 55 0 0
+2024/07/05 09:49:46.953 S:I logBeidouEphemeris: 1042 5 965 0 -3026 | 0 58950 0 36431 -5426992 | 0 6126 -797 2067173742 6354 | 4084843 57777 3404373681 58950 -102 | 38002355 -647 36340858 -52710 628892083 | 3821 2 0 0
+2024/07/05 09:49:46.953 S:I logBeidouEphemeris: 1042 6 965 0 2133 | 0 58950 0 37538 4845683 | 0 4343 5211 -2125890014 5652 | 35463137 9582 3404333226 58950 -363 | -1302289649 166 646700994 6985 -1840069770 | -5488 86 0 0
+2024/07/05 09:49:46.953 S:I logBeidouEphemeris: 1042 7 965 0 -1732 | 0 58950 0 38011 -4959733 | 0 37996 3063 735309539 42102 | 33076018 41530 3404140004 58950 479 | 24569273 -69 583233619 -24984 -1768889791 | -4274 151 0 0
+2024/07/05 09:49:46.953 S:I logBeidouEphemeris: 1042 8 965 0 -1912 | 0 58950 0 -44393 -2424119 | 0 -46805 1843 -279579839 -52386 | 23080989 -5719 3404637732 58950 -393 | 1532264651 -100 732186120 23132 2036520906 | -6108 113 0 0
+2024/07/05 09:49:46.953 S:I logBeidouEphemeris: 1042 9 965 0 1903 | 0 58950 0 -61889 108062 | 0 3760 5217 1689239842 5160 | 107445764 8562 3404574267 58950 -273 | -1271084828 217 650304134 7437 -1565588498 | -5349 69 0 0
+2024/07/05 09:49:46.953 S:I logBeidouEphemeris: 1042 10 965 0 -1857 | 0 58950 0 -20548 -529398 | 0 36543 3054 522324303 40590 | 86357717 41423 3404231075 58950 387 | 20872795 -219 584821860 -24742 -1678314814 | -4291 61 0 0
+2024/07/05 09:49:46.953 S:I logBeidouEphemeris: 1042 11 965 2 496 | 0 58950 0 21199 5559523 | 0 10927 9517 -954047991 17830 | 16556317 5612 2769624026 58950 -13 | 598594965 45 672015691 20446 -1191601941 | -18941 41 0 0
+2024/07/05 09:49:46.953 S:I logBeidouEphemeris: 1042 12 965 1 344 | 0 58950 0 -2629 -2248338 | 0 10201 9760 -386395464 16967 | 8726819 5556 2769619835 58950 -23 | 589887461 -153 670911260 20011 -1199117103 | -19074 33 0 0
+2024/07/05 09:49:46.953 S:I logBeidouEphemeris: 1042 13 965 2 -1791 | 0 58950 0 179 3768381 | 0 -49265 2172 -979556247 -54378 | 40245956 -10916 3404489968 58950 -423 | 1511124506 24 706233847 27135 -1656775531 | -6409 -95 0 0
+2024/07/05 09:49:46.953 S:I logBeidouEphemeris: 1042 14 965 3 309 | 0 58950 0 839 7828770 | 0 -10387 8313 829978517 -16947 | 11182733 21565 2769624820 58950 -134 | 2004681289 436 667546700 10611 -91349518 | -17538 67 0 0
+2024/07/05 09:49:46.953 S:I logBeidouEphemeris: 1042 16 965 0 2151 | 0 58950 0 -29694 -5459420 | 0 3928 4949 1857297953 5095 | 63973664 10160 3404668575 58950 -378 | -1304539039 95 657311256 6763 -1513125382 | -5238 -28 0 0
+2024/07/05 09:49:46.953 S:I logBeidouEphemeris: 1042 19 965 0 292 | 0 58950 0 -2077 -7875096 | 0 -9398 8310 -1227278555 -15563 | 7249283 20294 2769624229 58950 177 | 2005860572 222 669339563 11584 -457913739 | -17752 96 0 0
+2024/07/05 09:49:46.953 S:I logBeidouEphemeris: 1042 20 965 0 190 | 0 58950 0 -48100 -5591921 | 0 -10369 8290 -1089835830 -17009 | 6762984 19643 2769624683 58950 -389 | 2006290411 193 669331814 12032 -93182403 | -17491 121 0 0
+2024/07/05 09:49:46.953 S:I logBeidouEphemeris: 1042 21 965 1 -30 | 0 58950 0 6450 -8258082 | 0 -9705 8432 1757298090 -16097 | 6116558 21760 2769623884 58950 135 | 2006968113 -441 668842006 10886 -224448747 | -17570 111 0 0
+2024/07/05 09:49:46.953 S:I logBeidouEphemeris: 1042 22 965 0 83 | 0 58950 0 13705 436317 | 0 -9689 8602 1796627306 -16292 | 6242691 20851 2769623967 58950 163 | 2006916013 33 668847978 11182 269645268 | -17889 136 0 0
+2024/07/05 09:49:46.953 S:I logBeidouEphemeris: 1042 23 965 0 -571 | 0 58950 0 -5391 -6826586 | 0 -547 12910 -490224805 -1289 | 3009329 10938 2769622624 58950 -7 | -859185138 -24 645423659 16274 -968339618 | -19393 219 0 0
+2024/07/05 09:49:46.953 S:I logBeidouEphemeris: 1042 24 965 0 -658 | 0 58950 0 -9682 7629175 | 0 -948 12742 -637805935 -1452 | 3940984 11018 2769617853 58950 36 | -859310325 31 645419366 15606 253493114 | -19424 39 0 0
+2024/07/05 09:49:46.953 S:I logBeidouEphemeris: 1042 25 965 0 -526 | 0 58950 0 11310 3808750 | 0 -415 12780 -1251915430 -1490 | 3617984 10420 2769608445 58950 90 | -875447598 25 646459197 16047 330936507 | -19425 4 0 0
+2024/07/05 09:49:46.953 S:I logBeidouEphemeris: 1042 26 965 0 -646 | 0 58950 0 -6102 -2709549 | 0 -1091 12784 -236499509 -1564 | 6474403 10615 2769608564 58950 -75 | -875030403 77 646492843 16366 387286469 | -19504 -53 0 0
+2024/07/05 09:49:46.953 S:I logBeidouEphemeris: 1042 27 965 0 388 | 0 58950 0 5947 2890352 | 0 11348 10945 -182273858 19247 | 5657687 7255 2769616860 58950 138 | 577862869 -292 655286998 18292 1008938070 | -19729 -46 0 0
+2024/07/05 09:49:46.953 S:I logBeidouEphemeris: 1042 28 965 0 560 | 0 58950 0 4848 2225013 | 0 11392 11055 -1177855559 19256 | 1147003 6882 2769624190 58950 163 | 577689294 151 655203309 18918 -1816170918 | -19711 -47 0 0
+2024/07/05 09:49:46.953 S:I logBeidouEphemeris: 1042 29 965 0 444 | 0 58950 0 5731 2612092 | 0 10906 10794 -1553373777 18112 | 2048479 8437 2769616260 58950 -166 | 550494094 15 653910781 17979 1319052411 | -19346 -3 0 0
+2024/07/05 09:49:46.953 S:I logBeidouEphemeris: 1042 30 965 0 280 | 0 58950 0 -12843 -1054460 | 0 10849 10905 -243498342 17836 | 3802235 8682 2769613324 58950 -212 | 550827111 -66 653878600 17448 572044239 | -19440 -98 0 0
+2024/07/05 09:49:46.953 S:I logBeidouEphemeris: 1042 32 965 0 -53 | 0 58950 0 -11387 -5711548 | 0 -10701 8403 -251627859 -17696 | 4439345 20177 2769622903 58950 83 | 2001319905 -322 668501908 11734 -359667598 | -17654 -76 0 0
+2024/07/05 09:49:46.953 S:I logBeidouEphemeris: 1042 33 965 5 322 | 0 58950 0 -1030 -8251201 | 0 -10824 8453 351946270 -17654 | 4385809 21253 2769622437 58950 158 | 2001237411 224 668523782 10839 113412205 | -17692 -450 0 0
+2024/07/05 09:49:46.953 S:I logBeidouEphemeris: 1042 34 965 0 358 | 0 58950 0 9272 4041011 | 0 11394 10888 1716815120 18481 | 4587255 6931 2769617405 58950 -31 | 551686771 -82 652623381 18531 710632456 | -19491 -64 0 0
+2024/07/05 09:49:46.954 S:I logBeidouEphemeris: 1042 35 965 0 457 | 0 58950 0 -10793 2756587 | 0 10522 11084 -1296734117 17973 | 6623764 8068 2769619292 58950 180 | 551653233 273 652673584 18150 462451282 | -19646 -28 0 0
+2024/07/05 09:49:46.954 S:I logBeidouEphemeris: 1042 36 965 0 -509 | 0 58950 0 11008 1101624 | 0 -994 12895 -2144520258 -2464 | 7162656 10068 2769624708 58950 265 | -859904161 159 646412214 16344 -929094303 | -19711 -208 0 0
+2024/07/05 09:49:46.954 S:I logBeidouEphemeris: 1042 37 965 0 -437 | 0 58950 0 7631 -7977824 | 0 -795 12803 -1450468110 -1007 | 5688289 10683 2769616787 58950 -5 | -860003225 -66 646421893 16297 -544414472 | -19361 -170 0 0
+2024/07/05 09:49:46.954 S:I logBeidouEphemeris: 1042 38 965 0 -1673 | 0 58950 0 2560 1420596 | 0 -46193 2755 -502612928 -52013 | 18508371 -10166 3404162011 58950 -249 | 1509576596 -204 687934094 25394 -1869900715 | -6493 25 0 0
+2024/07/05 09:49:46.954 S:I logBeidouEphemeris: 1042 39 965 0 2540 | 0 58950 0 -186 -77314 | 0 4730 4724 -1933060597 5633 | 29837978 12836 3404171955 58950 -364 | -1353493216 41 657823968 4649 -1869281479 | -5187 61 0 0
+2024/07/05 09:49:46.954 S:I logBeidouEphemeris: 1042 40 965 0 -902 | 0 58950 0 -2229 -675181 | 0 47201 1451 1099339297 52509 | 34895045 36642 3404155270 58950 399 | 119043117 129 668897831 -17946 -2088169513 | -3828 7 0 0
+2024/07/05 09:49:46.954 S:I logBeidouEphemeris: 1042 41 965 0 114 | 0 58950 0 9009 -8162475 | 0 -10787 8605 807180467 -17953 | 12923907 20096 2769622563 58950 86 | 2003348082 -39 667716501 11508 -861818307 | -17894 -237 0 0
+2024/07/05 09:49:46.954 S:I logBeidouEphemeris: 1042 42 965 0 194 | 0 58950 0 -3138 -3870923 | 0 -10333 8180 1677461910 -16728 | 11458123 22083 2769622753 58950 -480 | 2003746176 85 667738184 10336 -661613797 | -17393 -326 0 0
+2024/07/05 09:49:46.954 S:I logBeidouEphemeris: 1042 43 965 0 516 | 0 58950 0 1518 667799 | 0 11729 11127 1294789612 19219 | 4206098 7173 2769615545 58950 -105 | 550525871 -74 650544222 18540 646271251 | -19596 -35 0 0
+2024/07/05 09:49:46.954 S:I logBeidouEphemeris: 1042 44 965 0 306 | 0 58950 0 12754 4499754 | 0 10606 11295 -1896916040 18116 | 6005423 6362 2769617375 58950 208 | 550817198 -211 650858249 18691 580979294 | -19716 -15 0 0
+2024/07/05 09:49:46.954 S:I logBeidouEphemeris: 1042 45 965 1 -707 | 0 58950 0 -4575 -869273 | 0 -894 12693 927131370 -1965 | 3777555 11356 2769608862 58950 19 | -856814964 -219 649110911 16302 -228416375 | -19548 190 0 0
+2024/07/05 09:49:46.954 S:I logBeidouEphemeris: 1042 59 965 0 -2258 | 0 58950 0 -163 3726 | 0 -35329 19262 1403501777 -39273 | 3158779 33784 3404466219 58950 -232 | -286204936 132 35533730 -30649 -1710026218 | -15808 416 0 0
+2024/07/05 09:49:46.954 S:I logBeidouEphemeris: 1042 60 965 0 -2530 | 0 58950 0 85 -4455 | 0 31987 -5226 65592398 34821 | 1460993 45820 3404416937 58950 -284 | 221455688 -810 50993277 -41672 -1593127139 | 8350 474 0 0
+2024/07/05 09:49:46.954 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:49:46.954 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208205 <=> 2321 | 467405
+2024/07/05 09:49:46.959 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:49:46.959 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208205 <=> 2321 | 467405
+2024/07/05 09:49:46.962 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:49:46.962 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208205 <=> 2321 | 467405
+2024/07/05 09:49:46.964 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:49:46.964 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208205 <=> 2321 | 467405
+2024/07/05 09:49:46.966 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:49:46.966 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208205 <=> 2321 | 467405
+2024/07/05 09:49:46.968 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:49:46.968 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208205 <=> 2321 | 467405
+2024/07/05 09:49:46.971 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:49:46.971 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208205 <=> 2321 | 467405
+2024/07/05 09:49:46.973 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:49:46.973 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208205 <=> 2321 | 467405
+2024/07/05 09:49:46.975 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:49:46.975 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208205 <=> 2321 | 467405
+2024/07/05 09:49:46.977 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:49:46.978 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208205 <=> 2321 | 467405
+2024/07/05 09:49:46.980 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:49:46.980 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208205 <=> 2321 | 467405
+2024/07/05 09:49:46.982 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:49:46.982 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208205 <=> 2321 | 467405
+2024/07/05 09:49:46.984 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:49:46.984 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208205 <=> 2321 | 467405
+2024/07/05 09:49:46.992 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:49:46.993 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208205 <=> 2321 | 467405
+2024/07/05 09:49:46.000 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:49:46.000 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208205 <=> 2321 | 467405
+2024/07/05 09:49:47.008 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:49:47.008 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208205 <=> 2321 | 467405
+2024/07/05 09:49:47.014 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:49:47.014 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208205 <=> 2321 | 467405
+2024/07/05 09:49:47.021 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:49:47.021 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208205 <=> 2321 | 467405
+2024/07/05 09:49:47.028 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:49:47.028 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208205 <=> 2321 | 467405
+2024/07/05 09:50:25.197 S:I MSL Log opened.
+2024/07/05 09:50:25.198 S:T MSL_SystemInitializeAction: Successful in creating mWakePipe
+2024/07/05 09:50:25.198 S:T MSL_SystemInitializeAction: mWakePipe[0] = (6)
+2024/07/05 09:50:25.198 S:T MSL_SystemInitializeAction: mWakePipe[1] = (7)
+2024/07/05 09:50:25.198 S:T RXN_SocketMsgThread: Entering select maxFds: 5.
+2024/07/05 09:50:25.198 S:I RXN_MSL_Initialize: MSL Ver: PG Lite MSL 1.0.6
+2024/07/05 09:50:25.198 S:I RXN_MSL_Initialize: PG Lite API Ver: PG Lite API 1.0.6
+2024/07/05 09:50:25.198 S:I RXN_MSL_Initialize: Will log for severity levels 0 - 4
+2024/07/05 09:50:25.198 S:T RXN_MSL_Initialize: Log_Max_Size: 10240
+2024/07/05 09:50:25.198 S:T RXN_MSL_Initialize: MSL_Log_Path: ./MSL_Log.txt
+2024/07/05 09:50:25.198 S:T RXN_MSL_Initialize: Customer_ID: C3LYMrPEvt
+2024/07/05 09:50:25.198 S:T RXN_MSL_Initialize: Customer_Key: Ga2qtbXLeMXwPjqQ
+2024/07/05 09:50:25.198 S:T RXN_MSL_Initialize: Device_ID: 02-83-3F-A3-43-A3
+2024/07/05 09:50:25.198 S:T RXN_MSL_Initialize: Pantry_Path: ./RXN
+2024/07/05 09:50:25.198 S:T RXN_MSL_Initialize: System_Check_Freq: 14400
+2024/07/05 09:50:25.198 S:T RXN_MSL_Initialize: Startup_Data_Wait_Duration: 10
+2024/07/05 09:50:25.198 S:T RXN_MSL_Initialize: Seed_Host: starcourse.location.io
+2024/07/05 09:50:25.198 S:T RXN_MSL_Initialize: Seed_Port: 80
+2024/07/05 09:50:25.198 S:T RXN_MSL_Initialize: Respect_Data_Settings: 1
+2024/07/05 09:50:25.198 S:T RXN_MSL_Initialize: Seed_Retry_Period: 60
+2024/07/05 09:50:25.198 S:T RXN_MSL_Initialize: Seed_Retry_Max: 3
+2024/07/05 09:50:25.198 S:T RXN_MSL_Initialize: Seed_Retry_Timer: 86400
+2024/07/05 09:50:25.198 S:T RXN_MSL_Initialize: Seed_Filename: f1e1G7C7.pgl
+2024/07/05 09:50:25.198 S:T RXN_MSL_Initialize: Seed_Update_Age: 172800
+2024/07/05 09:50:25.199 S:T RXN_MSL_Initialize: Seed_Update_Age_Offset: 21600
+2024/07/05 09:50:25.199 S:T RXN_MSL_Initialize: SNTP_Host: hk.pool.ntp.org
+2024/07/05 09:50:25.199 S:T RXN_MSL_Initialize: SNTP_Port: 123
+2024/07/05 09:50:25.199 S:T RXN_MSL_Initialize: SNTP_GPSTime_Uncert_Thresh: 5000
+2024/07/05 09:50:25.199 S:T RXN_MSL_Initialize: SNTP_Retry_Period: 60
+2024/07/05 09:50:25.199 S:T RXN_MSL_Initialize: SNTP_Retry_Max: 3
+2024/07/05 09:50:25.199 S:T RXN_MSL_Initialize: SNTP_Retry_Timer: 86400
+2024/07/05 09:50:25.199 S:T RXN_MSL_Initialize: Constel_Config: GPS 
+2024/07/05 09:50:25.199 S:T MSL_SetNextSystemEvent: Event 6 occurred.
+2024/07/05 09:50:25.199 S:I handleEvent: Received state 0 in event 6
+2024/07/05 09:50:25.199 S:I handleEvent: Network access available.
+2024/07/05 09:50:25.199 S:I handleEvent: Exiting timeout early.
+2024/07/05 09:50:25.199 S:T MSL_WakeUpWork: write to mWakePipe
+2024/07/05 09:50:25.199 S:T MSL_WakeUpWork: write to mWakePipe SUCCESS
+2024/07/05 09:50:25.200 S:I RXN_MSL_Work: Running state machine...
+2024/07/05 09:50:25.200 S:T MSL_RunStateMachine: state 2
+2024/07/05 09:50:25.200 S:I Received event 0 in state 2
+2024/07/05 09:50:25.200 S:I MSL_SNTPRequestAction: SNTP request made. Attempt: 1
+2024/07/05 09:50:25.200 S:T RXN_SocketMsgThread: Command: 116 received from main thread.
+2024/07/05 09:50:25.200 S:T handleCommand: event: 116
+2024/07/05 09:50:25.200 S:T MSL_TimeoutAction: Timeout during state 3.
+2024/07/05 09:50:25.200 S:T MSL_Timeout: mWakePipe[0] = (6)
+2024/07/05 09:50:25.200 S:T MSL_Timeout: mWakePipe[1] = (7)
+2024/07/05 09:50:25.200 S:T MSL_Timeout: Enter select for 60 seconds.
+2024/07/05 09:50:25.413 S:T MSL_SetSNTPTime: GPS time set to: 1404208243 <=> 2321 | 467443
+2024/07/05 09:50:25.413 S:T MSL_SetNextSystemEvent: Event 1 occurred.
+2024/07/05 09:50:25.414 S:I handleEvent: Received state 3 in event 1
+2024/07/05 09:50:25.414 S:I handleEvent: Valid time obtained.
+2024/07/05 09:50:25.414 S:T sntpRetryReset: Has been called.
+2024/07/05 09:50:25.414 S:I handleEvent: Exiting timeout early.
+2024/07/05 09:50:25.414 S:T MSL_WakeUpWork: write to mWakePipe
+2024/07/05 09:50:25.414 S:T MSL_WakeUpWork: write to mWakePipe SUCCESS
+2024/07/05 09:50:25.414 S:T RXN_MsgSocketThread: Handled event 116. MSL_HandleEvent returned: 0.
+2024/07/05 09:50:25.414 S:T MSL_Timeout: mWakePipe caused select release...
+2024/07/05 09:50:25.414 S:T RXN_SocketMsgThread: Entering select maxFds: 5.
+2024/07/05 09:50:25.414 S:T MSL_Timeout: Wake pulse received.
+2024/07/05 09:50:25.414 S:T MSL_TimeoutAction: Exited timeout because event occurred.
+2024/07/05 09:50:25.415 S:I RXN_MSL_Work: Running state machine...
+2024/07/05 09:50:25.415 S:T MSL_RunStateMachine: state 4
+2024/07/05 09:50:25.415 S:I Received event 0 in state 4
+2024/07/05 09:50:25.415 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:50:25.416 S:I MSL_CheckSeedStatus: EE version: 1. Constellation enum: 0. Native start time: 1404201600. Number of blocks: 28. Block duration: 6 hours.
+2024/07/05 09:50:25.416 S:I MSL_CheckSeedStatus: Seed is okay. No actions required.
+2024/07/05 09:50:25.416 S:T seedCheckAction: seedState: 0. Constellation enum: 0.
+2024/07/05 09:50:25.417 S:I RXN_MSL_Work: Running state machine...
+2024/07/05 09:50:25.417 S:T MSL_RunStateMachine: state 1
+2024/07/05 09:50:25.417 S:I Received event 0 in state 1
+2024/07/05 09:50:25.417 S:T MSL_TimeoutAction: Timeout during state 1.
+2024/07/05 09:50:25.417 S:T MSL_Timeout: mWakePipe[0] = (6)
+2024/07/05 09:50:25.417 S:T MSL_Timeout: mWakePipe[1] = (7)
+2024/07/05 09:50:25.417 S:T MSL_Timeout: Enter select for 14400 seconds.
+2024/07/05 09:50:35.199 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:50:35.199 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208253 <=> 2321 | 467453
+2024/07/05 09:50:35.201 S:I logGpsEphemeris: 1019 2 273 0 1 | -149 132 29475 0 64 | -869618 388 2525 12807 1697892302 | 2320 137556101 -409 2702023221 29475 | 193 894631040 -22 661057761 12421 | -797145949 -23047 -38 0 0 | 1
+2024/07/05 09:50:35.201 S:I logGpsEphemeris: 1019 3 273 0 1 | -1004 132 29475 0 149 | 954767 388 -4628 10743 -727925710 | -4063 48701019 2492 2702025786 29475 | 43 1671097136 136 673393656 9665 | 762121581 -22102 3 0 0 | 1
+2024/07/05 09:50:35.201 S:I logGpsEphemeris: 1019 4 273 0 1 | 1492 132 29475 0 69 | 853481 388 -1831 11291 1330747749 | -1565 24654816 5695 2702040970 29475 | -20 -1887127232 22 660007644 5692 | -2028051229 -21162 -10 0 0 | 1
+2024/07/05 09:50:35.201 S:I logGpsEphemeris: 1019 5 273 0 1 | -791 132 29475 0 -12 | -383730 388 -4319 11336 1798572292 | -3807 51083352 2200 2701994013 29475 | 54 1635651008 -13 664443318 9736 | 873979575 -22094 -23 0 0 | 1
+2024/07/05 09:50:35.201 S:I logGpsEphemeris: 1019 6 273 0 1 | -65 132 29475 0 -196 | 385960 388 1712 11399 219219626 | 1375 25233668 121 2701996354 29475 | 10 962449846 -2 676359995 12548 | -483205607 -22775 8 0 0 | 1
+2024/07/05 09:50:35.201 S:I logGpsEphemeris: 1019 7 273 4 1 | 1092 132 29475 0 74 | -164291 388 366 14600 -389777615 | 589 160280677 3068 2701978973 29475 | -38 -1194990714 212 649271376 8633 | -1443220969 -23576 -24 0 0 | 1
+2024/07/05 09:50:35.201 S:I logGpsEphemeris: 1019 8 273 0 1 | -174 132 29475 0 148 | 560292 388 4670 12669 1557743727 | 4027 81449864 5133 2702002182 29475 | -219 212569640 13 651411354 6187 | 250784462 -22019 10 0 0 | 1
+2024/07/05 09:50:35.202 S:I logGpsEphemeris: 1019 9 273 0 1 | 1384 132 29475 0 131 | 560657 388 -2071 11485 1888869156 | -1757 24323761 5637 2701992481 29475 | -30 -1928003176 22 655673244 5668 | 1345309703 -21082 2 0 0 | 1
+2024/07/05 09:50:35.202 S:I logGpsEphemeris: 1019 10 273 0 1 | -717 132 29475 0 -82 | -125676 388 -4947 10176 -1387463316 | -4270 80727971 2873 2702019459 29475 | -1 1669345745 -116 673158094 9237 | -1623960464 -21297 5 0 0 | 1
+2024/07/05 09:50:35.202 S:I logGpsEphemeris: 1019 11 273 0 1 | -71 132 29475 0 -64 | -1501304 388 1284 12811 1078513171 | 1151 12258532 -165 2702041818 29475 | -7 984470830 59 660331916 12491 | -1774513304 -23499 -19 0 0 | 1
+2024/07/05 09:50:35.202 S:I logGpsEphemeris: 1019 12 273 0 1 | -1545 132 29475 0 -28 | -1116161 388 396 12905 -891714387 | 538 74674140 4957 2701985530 29475 | -47 -432087522 198 657684557 6670 | 995766051 -21964 -27 0 0 | 1
+2024/07/05 09:50:35.202 S:I logGpsEphemeris: 1019 13 273 0 1 | 1852 132 29475 0 22 | 1422737 388 -1181 11009 1368949255 | -1024 70950283 5549 2702003074 29475 | -93 -1814240596 -156 664395169 5956 | 636420330 -21206 -24 0 0 | 1
+2024/07/05 09:50:35.202 S:I logGpsEphemeris: 1019 14 273 0 1 | -1406 132 29475 0 79 | 948240 388 -91 14012 -928777224 | -143 40216516 4534 2702020355 29475 | 24 -462873622 -21 646259554 6581 | -1968875963 -22472 -17 0 0 | 1
+2024/07/05 09:50:35.202 S:I logGpsEphemeris: 1019 15 273 0 1 | 1115 132 29475 0 37 | 381526 388 -2429 13206 901959658 | -2240 135779309 5976 2702013756 29475 | -209 -2016075759 -172 639934931 5091 | 904312663 -22762 -22 0 0 | 1
+2024/07/05 09:50:35.202 S:I logGpsEphemeris: 1019 16 273 0 1 | -1611 132 29475 0 94 | -526794 388 583 12665 -2105032637 | 344 118738683 5031 2701962426 29475 | 7 -419907999 -223 657327364 6430 | 573299240 -21177 -22 0 0 | 1
+2024/07/05 09:50:35.202 S:I logGpsEphemeris: 1019 17 273 0 1 | -337 132 29475 0 -61 | 1467519 388 4514 11452 1540882527 | 3944 115154035 4366 2702056296 29475 | 134 277701386 -45 662179741 6939 | -899745331 -21215 -24 0 0 | 1
+2024/07/05 09:50:35.202 S:I logGpsEphemeris: 1019 18 273 0 1 | -257 132 29475 0 -38 | -1359626 388 1160 12477 222551269 | 878 37021280 -374 2701973742 29475 | 31 964857358 -12 666000448 12580 | -2083043842 -23431 -18 0 0 | 1
+2024/07/05 09:50:35.202 S:I logGpsEphemeris: 1019 19 273 0 1 | -9 132 29475 0 48 | 1086758 388 4540 11676 -1408246945 | 3998 85709861 4727 2702035377 29475 | -211 307969632 -9 661616744 6927 | 1766017205 -21824 -33 0 0 | 1
+2024/07/05 09:50:35.202 S:I logGpsEphemeris: 1019 20 273 0 1 | -861 132 29475 0 -4 | 801213 388 -3902 12717 480275204 | -3368 31593745 1560 2701949537 29475 | -47 1547114942 84 652360491 10277 | -1765619081 -23134 -18 0 0 | 1
+2024/07/05 09:50:35.202 S:I logGpsEphemeris: 1019 21 273 0 1 | -503 132 29475 0 -23 | 238290 388 2721 13189 1445731847 | 2579 216537579 -340 2702012765 29475 | 209 889556819 208 657137035 12366 | -377973916 -23298 -22 0 0 | 1
+2024/07/05 09:50:35.202 S:I logGpsEphemeris: 1019 22 273 0 1 | -1745 132 29475 0 -41 | -76973 388 210 12689 1906160331 | 131 122186097 4930 2702021701 29475 | 161 -417655084 94 656868549 6335 | -773895501 -21301 -24 0 0 | 1
+2024/07/05 09:50:35.202 S:I logGpsEphemeris: 1019 23 273 0 1 | -1029 132 29475 0 79 | 572352 388 -4517 10871 -611994143 | -4004 37321698 2710 2701969058 29475 | 111 1649405662 -95 669819083 9514 | -2026768747 -21933 -18 0 0 | 1
+2024/07/05 09:50:35.202 S:I logGpsEphemeris: 1019 24 273 0 1 | 908 132 29475 0 -17 | -1034385 388 690 15626 292129385 | 529 132611737 2967 2702022099 29475 | -112 -1261819747 111 638167877 8409 | 673670604 -24188 5 0 0 | 1
+2024/07/05 09:50:35.202 S:I logGpsEphemeris: 1019 25 273 0 1 | -1496 132 29475 0 4 | 1069845 388 44 13750 -931750756 | 220 99773494 4464 2702057405 29475 | 185 -491550155 188 649405949 6797 | 745431857 -22218 11 0 0 | 1
+2024/07/05 09:50:35.202 S:I logGpsEphemeris: 1019 26 273 0 1 | -1238 132 29475 0 -59 | 269349 388 -27 15085 -1461568519 | -270 76687910 4253 2702000445 29475 | 119 -534750541 -98 636217541 6698 | 370731900 -22812 14 0 0 | 1
+2024/07/05 09:50:35.202 S:I logGpsEphemeris: 1019 27 273 0 1 | -49 132 29475 0 -9 | -65126 388 4711 11902 1596452970 | 3947 107560864 4921 2702017687 29475 | -106 230879533 -201 657573613 6505 | 545547735 -21478 4 0 0 | 1
+2024/07/05 09:50:35.202 S:I logGpsEphemeris: 1019 28 273 0 1 | 1011 132 29475 0 -143 | -683471 388 175 13502 -1245142921 | 281 2487861 2841 2702004156 29475 | -2 -1217310299 3 656863751 8705 | 1061210466 -22368 -20 0 0 | 1
+2024/07/05 09:50:35.202 S:I logGpsEphemeris: 1019 29 273 0 1 | -45 132 29475 0 16 | -1269302 388 4492 11716 1547171769 | 4090 25863712 4281 2701958983 29475 | 85 288018034 55 663842782 7429 | 1777111728 -21873 -21 0 0 | 1
+2024/07/05 09:50:35.202 S:I logGpsEphemeris: 1019 30 273 0 1 | 1146 132 29475 0 56 | -779592 388 388 15317 -497993519 | 518 61765459 2714 2701974328 29475 | 57 -1194978162 61 639119553 8505 | -1673959632 -23535 9 0 0 | 1
+2024/07/05 09:50:35.202 S:I logGpsEphemeris: 1019 31 273 0 1 | 1030 132 29475 0 2 | -487445 388 194 13990 -1014639939 | 164 90037745 2443 2702042044 29475 | 153 -1180170647 -74 651976897 8779 | 470828186 -22426 -29 0 0 | 1
+2024/07/05 09:50:35.202 S:I logGpsEphemeris: 1019 32 273 0 1 | 1795 132 29475 0 15 | -1317803 388 -1839 11096 2047014774 | -1547 66762774 5883 2702022275 29475 | 16 -1917910288 3 657989931 5363 | -1455916277 -20758 2 0 0 | 1
+2024/07/05 09:50:35.202 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:50:35.202 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208253 <=> 2321 | 467453
+2024/07/05 09:50:35.204 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:50:35.204 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208253 <=> 2321 | 467453
+2024/07/05 09:50:35.206 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:50:35.206 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208253 <=> 2321 | 467453
+2024/07/05 09:50:35.208 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:50:35.208 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208253 <=> 2321 | 467453
+2024/07/05 09:50:35.214 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:50:35.214 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208253 <=> 2321 | 467453
+2024/07/05 09:50:35.219 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:50:35.219 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208253 <=> 2321 | 467453
+2024/07/05 09:50:35.221 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:50:35.221 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208253 <=> 2321 | 467453
+2024/07/05 09:50:35.223 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:50:35.223 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208253 <=> 2321 | 467453
+2024/07/05 09:50:35.225 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:50:35.225 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208253 <=> 2321 | 467453
+2024/07/05 09:50:35.227 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:50:35.227 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208253 <=> 2321 | 467453
+2024/07/05 09:50:35.229 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:50:35.229 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208253 <=> 2321 | 467453
+2024/07/05 09:50:35.231 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:50:35.231 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208253 <=> 2321 | 467453
+2024/07/05 09:50:35.233 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:50:35.233 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208253 <=> 2321 | 467453
+2024/07/05 09:50:35.235 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:50:35.235 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208253 <=> 2321 | 467453
+2024/07/05 09:50:35.237 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:50:35.237 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208253 <=> 2321 | 467453
+2024/07/05 09:50:35.238 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:50:35.238 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208253 <=> 2321 | 467453
+2024/07/05 09:50:35.240 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:50:35.240 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208253 <=> 2321 | 467453
+2024/07/05 09:50:35.242 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:50:35.242 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208253 <=> 2321 | 467453
+2024/07/05 09:50:35.245 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:50:35.245 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208253 <=> 2321 | 467453
+2024/07/05 09:50:35.247 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:50:35.247 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208253 <=> 2321 | 467453
+2024/07/05 09:50:35.248 S:I logBeidouEphemeris: 1042 1 965 15 -2228 | 0 58950 0 2586 7783567 | 0 -5733 4069 -451827236 -6548 | 1374638 52179 3404384950 58950 91 | -33617586 300 42290961 -47123 -52451201 | -662 -52 0 1
+2024/07/05 09:50:35.248 S:I logBeidouEphemeris: 1042 2 965 1 -2805 | 0 58950 0 34418 7113752 | 0 -982 4578 1588041901 -1277 | 7549342 55751 3404447848 58950 668 | 404735 -583 29165775 -50802 1446861292 | -1384 17 0 0
+2024/07/05 09:50:35.248 S:I logBeidouEphemeris: 1042 3 965 1 -2414 | 0 58950 0 65581 4420632 | 0 4187 4056 1441733036 4528 | 7390375 51625 3404486689 58950 737 | 26696659 85 38326479 -46719 1881864809 | -562 23 0 0
+2024/07/05 09:50:35.248 S:I logBeidouEphemeris: 1042 4 965 3 -2179 | 0 58950 0 -29431 -5465597 | 0 -873 -1678 266560066 -1034 | 3611282 51796 3404440093 58950 158 | 24853462 137 39131405 -46752 -644317083 | 4853 55 0 0
+2024/07/05 09:50:35.248 S:I logBeidouEphemeris: 1042 5 965 0 -3026 | 0 58950 0 36431 -5426992 | 0 6126 -797 2067173742 6354 | 4084843 57777 3404373681 58950 -102 | 38002355 -647 36340858 -52710 628892083 | 3821 2 0 0
+2024/07/05 09:50:35.248 S:I logBeidouEphemeris: 1042 6 965 0 2133 | 0 58950 0 37538 4845683 | 0 4343 5211 -2125890014 5652 | 35463137 9582 3404333226 58950 -363 | -1302289649 166 646700994 6985 -1840069770 | -5488 86 0 0
+2024/07/05 09:50:35.248 S:I logBeidouEphemeris: 1042 7 965 0 -1732 | 0 58950 0 38011 -4959733 | 0 37996 3063 735309539 42102 | 33076018 41530 3404140004 58950 479 | 24569273 -69 583233619 -24984 -1768889791 | -4274 151 0 0
+2024/07/05 09:50:35.248 S:I logBeidouEphemeris: 1042 8 965 0 -1912 | 0 58950 0 -44393 -2424119 | 0 -46805 1843 -279579839 -52386 | 23080989 -5719 3404637732 58950 -393 | 1532264651 -100 732186120 23132 2036520906 | -6108 113 0 0
+2024/07/05 09:50:35.248 S:I logBeidouEphemeris: 1042 9 965 0 1903 | 0 58950 0 -61889 108062 | 0 3760 5217 1689239842 5160 | 107445764 8562 3404574267 58950 -273 | -1271084828 217 650304134 7437 -1565588498 | -5349 69 0 0
+2024/07/05 09:50:35.248 S:I logBeidouEphemeris: 1042 10 965 0 -1857 | 0 58950 0 -20548 -529398 | 0 36543 3054 522324303 40590 | 86357717 41423 3404231075 58950 387 | 20872795 -219 584821860 -24742 -1678314814 | -4291 61 0 0
+2024/07/05 09:50:35.248 S:I logBeidouEphemeris: 1042 11 965 2 496 | 0 58950 0 21199 5559523 | 0 10927 9517 -954047991 17830 | 16556317 5612 2769624026 58950 -13 | 598594965 45 672015691 20446 -1191601941 | -18941 41 0 0
+2024/07/05 09:50:35.248 S:I logBeidouEphemeris: 1042 12 965 1 344 | 0 58950 0 -2629 -2248338 | 0 10201 9760 -386395464 16967 | 8726819 5556 2769619835 58950 -23 | 589887461 -153 670911260 20011 -1199117103 | -19074 33 0 0
+2024/07/05 09:50:35.248 S:I logBeidouEphemeris: 1042 13 965 2 -1791 | 0 58950 0 179 3768381 | 0 -49265 2172 -979556247 -54378 | 40245956 -10916 3404489968 58950 -423 | 1511124506 24 706233847 27135 -1656775531 | -6409 -95 0 0
+2024/07/05 09:50:35.248 S:I logBeidouEphemeris: 1042 14 965 3 309 | 0 58950 0 839 7828770 | 0 -10387 8313 829978517 -16947 | 11182733 21565 2769624820 58950 -134 | 2004681289 436 667546700 10611 -91349518 | -17538 67 0 0
+2024/07/05 09:50:35.248 S:I logBeidouEphemeris: 1042 16 965 0 2151 | 0 58950 0 -29694 -5459420 | 0 3928 4949 1857297953 5095 | 63973664 10160 3404668575 58950 -378 | -1304539039 95 657311256 6763 -1513125382 | -5238 -28 0 0
+2024/07/05 09:50:35.248 S:I logBeidouEphemeris: 1042 19 965 0 292 | 0 58950 0 -2077 -7875096 | 0 -9398 8310 -1227278555 -15563 | 7249283 20294 2769624229 58950 177 | 2005860572 222 669339563 11584 -457913739 | -17752 96 0 0
+2024/07/05 09:50:35.248 S:I logBeidouEphemeris: 1042 20 965 0 190 | 0 58950 0 -48100 -5591921 | 0 -10369 8290 -1089835830 -17009 | 6762984 19643 2769624683 58950 -389 | 2006290411 193 669331814 12032 -93182403 | -17491 121 0 0
+2024/07/05 09:50:35.248 S:I logBeidouEphemeris: 1042 21 965 1 -30 | 0 58950 0 6450 -8258082 | 0 -9705 8432 1757298090 -16097 | 6116558 21760 2769623884 58950 135 | 2006968113 -441 668842006 10886 -224448747 | -17570 111 0 0
+2024/07/05 09:50:35.248 S:I logBeidouEphemeris: 1042 22 965 0 83 | 0 58950 0 13705 436317 | 0 -9689 8602 1796627306 -16292 | 6242691 20851 2769623967 58950 163 | 2006916013 33 668847978 11182 269645268 | -17889 136 0 0
+2024/07/05 09:50:35.248 S:I logBeidouEphemeris: 1042 23 965 0 -571 | 0 58950 0 -5391 -6826586 | 0 -547 12910 -490224805 -1289 | 3009329 10938 2769622624 58950 -7 | -859185138 -24 645423659 16274 -968339618 | -19393 219 0 0
+2024/07/05 09:50:35.248 S:I logBeidouEphemeris: 1042 24 965 0 -658 | 0 58950 0 -9682 7629175 | 0 -948 12742 -637805935 -1452 | 3940984 11018 2769617853 58950 36 | -859310325 31 645419366 15606 253493114 | -19424 39 0 0
+2024/07/05 09:50:35.248 S:I logBeidouEphemeris: 1042 25 965 0 -526 | 0 58950 0 11310 3808750 | 0 -415 12780 -1251915430 -1490 | 3617984 10420 2769608445 58950 90 | -875447598 25 646459197 16047 330936507 | -19425 4 0 0
+2024/07/05 09:50:35.249 S:I logBeidouEphemeris: 1042 26 965 0 -646 | 0 58950 0 -6102 -2709549 | 0 -1091 12784 -236499509 -1564 | 6474403 10615 2769608564 58950 -75 | -875030403 77 646492843 16366 387286469 | -19504 -53 0 0
+2024/07/05 09:50:35.249 S:I logBeidouEphemeris: 1042 27 965 0 388 | 0 58950 0 5947 2890352 | 0 11348 10945 -182273858 19247 | 5657687 7255 2769616860 58950 138 | 577862869 -292 655286998 18292 1008938070 | -19729 -46 0 0
+2024/07/05 09:50:35.249 S:I logBeidouEphemeris: 1042 28 965 0 560 | 0 58950 0 4848 2225013 | 0 11392 11055 -1177855559 19256 | 1147003 6882 2769624190 58950 163 | 577689294 151 655203309 18918 -1816170918 | -19711 -47 0 0
+2024/07/05 09:50:35.249 S:I logBeidouEphemeris: 1042 29 965 0 444 | 0 58950 0 5731 2612092 | 0 10906 10794 -1553373777 18112 | 2048479 8437 2769616260 58950 -166 | 550494094 15 653910781 17979 1319052411 | -19346 -3 0 0
+2024/07/05 09:50:35.249 S:I logBeidouEphemeris: 1042 30 965 0 280 | 0 58950 0 -12843 -1054460 | 0 10849 10905 -243498342 17836 | 3802235 8682 2769613324 58950 -212 | 550827111 -66 653878600 17448 572044239 | -19440 -98 0 0
+2024/07/05 09:50:35.249 S:I logBeidouEphemeris: 1042 32 965 0 -53 | 0 58950 0 -11387 -5711548 | 0 -10701 8403 -251627859 -17696 | 4439345 20177 2769622903 58950 83 | 2001319905 -322 668501908 11734 -359667598 | -17654 -76 0 0
+2024/07/05 09:50:35.249 S:I logBeidouEphemeris: 1042 33 965 5 322 | 0 58950 0 -1030 -8251201 | 0 -10824 8453 351946270 -17654 | 4385809 21253 2769622437 58950 158 | 2001237411 224 668523782 10839 113412205 | -17692 -450 0 0
+2024/07/05 09:50:35.249 S:I logBeidouEphemeris: 1042 34 965 0 358 | 0 58950 0 9272 4041011 | 0 11394 10888 1716815120 18481 | 4587255 6931 2769617405 58950 -31 | 551686771 -82 652623381 18531 710632456 | -19491 -64 0 0
+2024/07/05 09:50:35.249 S:I logBeidouEphemeris: 1042 35 965 0 457 | 0 58950 0 -10793 2756587 | 0 10522 11084 -1296734117 17973 | 6623764 8068 2769619292 58950 180 | 551653233 273 652673584 18150 462451282 | -19646 -28 0 0
+2024/07/05 09:50:35.249 S:I logBeidouEphemeris: 1042 36 965 0 -509 | 0 58950 0 11008 1101624 | 0 -994 12895 -2144520258 -2464 | 7162656 10068 2769624708 58950 265 | -859904161 159 646412214 16344 -929094303 | -19711 -208 0 0
+2024/07/05 09:50:35.249 S:I logBeidouEphemeris: 1042 37 965 0 -437 | 0 58950 0 7631 -7977824 | 0 -795 12803 -1450468110 -1007 | 5688289 10683 2769616787 58950 -5 | -860003225 -66 646421893 16297 -544414472 | -19361 -170 0 0
+2024/07/05 09:50:35.249 S:I logBeidouEphemeris: 1042 38 965 0 -1673 | 0 58950 0 2560 1420596 | 0 -46193 2755 -502612928 -52013 | 18508371 -10166 3404162011 58950 -249 | 1509576596 -204 687934094 25394 -1869900715 | -6493 25 0 0
+2024/07/05 09:50:35.249 S:I logBeidouEphemeris: 1042 39 965 0 2540 | 0 58950 0 -186 -77314 | 0 4730 4724 -1933060597 5633 | 29837978 12836 3404171955 58950 -364 | -1353493216 41 657823968 4649 -1869281479 | -5187 61 0 0
+2024/07/05 09:50:35.249 S:I logBeidouEphemeris: 1042 40 965 0 -902 | 0 58950 0 -2229 -675181 | 0 47201 1451 1099339297 52509 | 34895045 36642 3404155270 58950 399 | 119043117 129 668897831 -17946 -2088169513 | -3828 7 0 0
+2024/07/05 09:50:35.249 S:I logBeidouEphemeris: 1042 41 965 0 114 | 0 58950 0 9009 -8162475 | 0 -10787 8605 807180467 -17953 | 12923907 20096 2769622563 58950 86 | 2003348082 -39 667716501 11508 -861818307 | -17894 -237 0 0
+2024/07/05 09:50:35.249 S:I logBeidouEphemeris: 1042 42 965 0 194 | 0 58950 0 -3138 -3870923 | 0 -10333 8180 1677461910 -16728 | 11458123 22083 2769622753 58950 -480 | 2003746176 85 667738184 10336 -661613797 | -17393 -326 0 0
+2024/07/05 09:50:35.249 S:I logBeidouEphemeris: 1042 43 965 0 516 | 0 58950 0 1518 667799 | 0 11729 11127 1294789612 19219 | 4206098 7173 2769615545 58950 -105 | 550525871 -74 650544222 18540 646271251 | -19596 -35 0 0
+2024/07/05 09:50:35.249 S:I logBeidouEphemeris: 1042 44 965 0 306 | 0 58950 0 12754 4499754 | 0 10606 11295 -1896916040 18116 | 6005423 6362 2769617375 58950 208 | 550817198 -211 650858249 18691 580979294 | -19716 -15 0 0
+2024/07/05 09:50:35.249 S:I logBeidouEphemeris: 1042 45 965 1 -707 | 0 58950 0 -4575 -869273 | 0 -894 12693 927131370 -1965 | 3777555 11356 2769608862 58950 19 | -856814964 -219 649110911 16302 -228416375 | -19548 190 0 0
+2024/07/05 09:50:35.249 S:I logBeidouEphemeris: 1042 59 965 0 -2258 | 0 58950 0 -163 3726 | 0 -35329 19262 1403501777 -39273 | 3158779 33784 3404466219 58950 -232 | -286204936 132 35533730 -30649 -1710026218 | -15808 416 0 0
+2024/07/05 09:50:35.249 S:I logBeidouEphemeris: 1042 60 965 0 -2530 | 0 58950 0 85 -4455 | 0 31987 -5226 65592398 34821 | 1460993 45820 3404416937 58950 -284 | 221455688 -810 50993277 -41672 -1593127139 | 8350 474 0 0
+2024/07/05 09:50:35.249 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:50:35.249 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208253 <=> 2321 | 467453
+2024/07/05 09:50:35.252 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:50:35.252 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208253 <=> 2321 | 467453
+2024/07/05 09:50:35.254 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:50:35.254 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208253 <=> 2321 | 467453
+2024/07/05 09:50:35.257 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:50:35.257 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208253 <=> 2321 | 467453
+2024/07/05 09:50:35.260 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:50:35.260 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208253 <=> 2321 | 467453
+2024/07/05 09:50:35.263 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:50:35.263 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208253 <=> 2321 | 467453
+2024/07/05 09:50:35.265 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:50:35.265 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208253 <=> 2321 | 467453
+2024/07/05 09:50:35.267 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:50:35.267 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208253 <=> 2321 | 467453
+2024/07/05 09:50:35.269 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:50:35.270 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208253 <=> 2321 | 467453
+2024/07/05 09:50:35.272 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:50:35.272 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208253 <=> 2321 | 467453
+2024/07/05 09:50:35.274 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:50:35.274 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208253 <=> 2321 | 467453
+2024/07/05 09:50:35.277 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:50:35.277 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208253 <=> 2321 | 467453
+2024/07/05 09:50:35.279 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:50:35.279 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208253 <=> 2321 | 467453
+2024/07/05 09:50:35.281 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:50:35.281 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208253 <=> 2321 | 467453
+2024/07/05 09:50:35.284 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:50:35.284 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208253 <=> 2321 | 467453
+2024/07/05 09:50:35.286 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:50:35.286 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208253 <=> 2321 | 467453
+2024/07/05 09:50:35.288 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:50:35.288 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208253 <=> 2321 | 467453
+2024/07/05 09:50:35.291 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:50:35.291 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208253 <=> 2321 | 467453
+2024/07/05 09:50:35.293 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:50:35.293 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208253 <=> 2321 | 467453
+2024/07/05 09:58:35.009 S:I MSL Log opened.
+2024/07/05 09:58:35.009 S:T RXN_SocketMsgThread: Entering select maxFds: 5.
+2024/07/05 09:58:35.009 S:T MSL_SystemInitializeAction: Successful in creating mWakePipe
+2024/07/05 09:58:35.009 S:T MSL_SystemInitializeAction: mWakePipe[0] = (6)
+2024/07/05 09:58:35.009 S:T MSL_SystemInitializeAction: mWakePipe[1] = (7)
+2024/07/05 09:58:35.009 S:I RXN_MSL_Initialize: MSL Ver: PG Lite MSL 1.0.6
+2024/07/05 09:58:35.009 S:I RXN_MSL_Initialize: PG Lite API Ver: PG Lite API 1.0.6
+2024/07/05 09:58:35.009 S:I RXN_MSL_Initialize: Will log for severity levels 0 - 4
+2024/07/05 09:58:35.009 S:T RXN_MSL_Initialize: Log_Max_Size: 10240
+2024/07/05 09:58:35.009 S:T RXN_MSL_Initialize: MSL_Log_Path: ./MSL_Log.txt
+2024/07/05 09:58:35.009 S:T RXN_MSL_Initialize: Customer_ID: C3LYMrPEvt
+2024/07/05 09:58:35.009 S:T RXN_MSL_Initialize: Customer_Key: Ga2qtbXLeMXwPjqQ
+2024/07/05 09:58:35.009 S:T RXN_MSL_Initialize: Device_ID: 02-83-3F-A3-43-A3
+2024/07/05 09:58:35.009 S:T RXN_MSL_Initialize: Pantry_Path: ./RXN
+2024/07/05 09:58:35.009 S:T RXN_MSL_Initialize: System_Check_Freq: 14400
+2024/07/05 09:58:35.010 S:T RXN_MSL_Initialize: Startup_Data_Wait_Duration: 10
+2024/07/05 09:58:35.010 S:T RXN_MSL_Initialize: Seed_Host: starcourse.location.io
+2024/07/05 09:58:35.010 S:T RXN_MSL_Initialize: Seed_Port: 80
+2024/07/05 09:58:35.010 S:T RXN_MSL_Initialize: Respect_Data_Settings: 1
+2024/07/05 09:58:35.010 S:T RXN_MSL_Initialize: Seed_Retry_Period: 60
+2024/07/05 09:58:35.010 S:T RXN_MSL_Initialize: Seed_Retry_Max: 3
+2024/07/05 09:58:35.010 S:T RXN_MSL_Initialize: Seed_Retry_Timer: 86400
+2024/07/05 09:58:35.010 S:T RXN_MSL_Initialize: Seed_Filename: f1e1G7C7.pgl
+2024/07/05 09:58:35.010 S:T RXN_MSL_Initialize: Seed_Update_Age: 172800
+2024/07/05 09:58:35.010 S:T RXN_MSL_Initialize: Seed_Update_Age_Offset: 21600
+2024/07/05 09:58:35.010 S:T RXN_MSL_Initialize: SNTP_Host: hk.pool.ntp.org
+2024/07/05 09:58:35.010 S:T RXN_MSL_Initialize: SNTP_Port: 123
+2024/07/05 09:58:35.010 S:T RXN_MSL_Initialize: SNTP_GPSTime_Uncert_Thresh: 5000
+2024/07/05 09:58:35.010 S:T RXN_MSL_Initialize: SNTP_Retry_Period: 60
+2024/07/05 09:58:35.010 S:T RXN_MSL_Initialize: SNTP_Retry_Max: 3
+2024/07/05 09:58:35.010 S:T RXN_MSL_Initialize: SNTP_Retry_Timer: 86400
+2024/07/05 09:58:35.010 S:T RXN_MSL_Initialize: Constel_Config: GPS 
+2024/07/05 09:58:35.010 S:T MSL_SetNextSystemEvent: Event 6 occurred.
+2024/07/05 09:58:35.010 S:I handleEvent: Received state 0 in event 6
+2024/07/05 09:58:35.010 S:I handleEvent: Network access available.
+2024/07/05 09:58:35.010 S:I handleEvent: Exiting timeout early.
+2024/07/05 09:58:35.010 S:T MSL_WakeUpWork: write to mWakePipe
+2024/07/05 09:58:35.010 S:T MSL_WakeUpWork: write to mWakePipe SUCCESS
+2024/07/05 09:58:35.011 S:I RXN_MSL_Work: Running state machine...
+2024/07/05 09:58:35.011 S:T MSL_RunStateMachine: state 2
+2024/07/05 09:58:35.011 S:I Received event 0 in state 2
+2024/07/05 09:58:35.012 S:I MSL_SNTPRequestAction: SNTP request made. Attempt: 1
+2024/07/05 09:58:35.012 S:T MSL_TimeoutAction: Timeout during state 3.
+2024/07/05 09:58:35.012 S:T MSL_Timeout: mWakePipe[0] = (6)
+2024/07/05 09:58:35.012 S:T MSL_Timeout: mWakePipe[1] = (7)
+2024/07/05 09:58:35.012 S:T RXN_SocketMsgThread: Command: 116 received from main thread.
+2024/07/05 09:58:35.012 S:T handleCommand: event: 116
+2024/07/05 09:58:35.012 S:T MSL_Timeout: Enter select for 60 seconds.
+2024/07/05 09:58:35.018 S:T MSL_SetSNTPTime: GPS time set to: 1404208733 <=> 2321 | 467933
+2024/07/05 09:58:35.018 S:T MSL_SetNextSystemEvent: Event 1 occurred.
+2024/07/05 09:58:35.018 S:I handleEvent: Received state 3 in event 1
+2024/07/05 09:58:35.018 S:I handleEvent: Valid time obtained.
+2024/07/05 09:58:35.018 S:T sntpRetryReset: Has been called.
+2024/07/05 09:58:35.018 S:I handleEvent: Exiting timeout early.
+2024/07/05 09:58:35.018 S:T MSL_WakeUpWork: write to mWakePipe
+2024/07/05 09:58:35.018 S:T MSL_WakeUpWork: write to mWakePipe SUCCESS
+2024/07/05 09:58:35.018 S:T RXN_MsgSocketThread: Handled event 116. MSL_HandleEvent returned: 0.
+2024/07/05 09:58:35.018 S:T RXN_SocketMsgThread: Entering select maxFds: 5.
+2024/07/05 09:58:35.018 S:T MSL_Timeout: mWakePipe caused select release...
+2024/07/05 09:58:35.018 S:T MSL_Timeout: Wake pulse received.
+2024/07/05 09:58:35.018 S:T MSL_TimeoutAction: Exited timeout because event occurred.
+2024/07/05 09:58:35.020 S:I RXN_MSL_Work: Running state machine...
+2024/07/05 09:58:35.020 S:T MSL_RunStateMachine: state 4
+2024/07/05 09:58:35.020 S:I Received event 0 in state 4
+2024/07/05 09:58:35.020 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:58:35.020 S:I MSL_CheckSeedStatus: EE version: 1. Constellation enum: 0. Native start time: 1404201600. Number of blocks: 28. Block duration: 6 hours.
+2024/07/05 09:58:35.020 S:I MSL_CheckSeedStatus: Seed is okay. No actions required.
+2024/07/05 09:58:35.020 S:T seedCheckAction: seedState: 0. Constellation enum: 0.
+2024/07/05 09:58:35.021 S:I RXN_MSL_Work: Running state machine...
+2024/07/05 09:58:35.021 S:T MSL_RunStateMachine: state 1
+2024/07/05 09:58:35.021 S:I Received event 0 in state 1
+2024/07/05 09:58:35.021 S:T MSL_TimeoutAction: Timeout during state 1.
+2024/07/05 09:58:35.021 S:T MSL_Timeout: mWakePipe[0] = (6)
+2024/07/05 09:58:35.021 S:T MSL_Timeout: mWakePipe[1] = (7)
+2024/07/05 09:58:35.021 S:T MSL_Timeout: Enter select for 14400 seconds.
+2024/07/05 09:58:45.011 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:58:45.011 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208743 <=> 2321 | 467943
+2024/07/05 09:58:45.011 S:I logGpsEphemeris: 1019 2 273 0 1 | -149 132 29475 0 64 | -869618 388 2525 12807 1697892302 | 2320 137556101 -409 2702023221 29475 | 193 894631040 -22 661057761 12421 | -797145949 -23047 -38 0 0 | 1
+2024/07/05 09:58:45.012 S:I logGpsEphemeris: 1019 3 273 0 1 | -1004 132 29475 0 149 | 954767 388 -4628 10743 -727925710 | -4063 48701019 2492 2702025786 29475 | 43 1671097136 136 673393656 9665 | 762121581 -22102 3 0 0 | 1
+2024/07/05 09:58:45.012 S:I logGpsEphemeris: 1019 4 273 0 1 | 1492 132 29475 0 69 | 853481 388 -1831 11291 1330747749 | -1565 24654816 5695 2702040970 29475 | -20 -1887127232 22 660007644 5692 | -2028051229 -21162 -10 0 0 | 1
+2024/07/05 09:58:45.012 S:I logGpsEphemeris: 1019 5 273 0 1 | -791 132 29475 0 -12 | -383730 388 -4319 11336 1798572292 | -3807 51083352 2200 2701994013 29475 | 54 1635651008 -13 664443318 9736 | 873979575 -22094 -23 0 0 | 1
+2024/07/05 09:58:45.012 S:I logGpsEphemeris: 1019 6 273 0 1 | -65 132 29475 0 -196 | 385960 388 1712 11399 219219626 | 1375 25233668 121 2701996354 29475 | 10 962449846 -2 676359995 12548 | -483205607 -22775 8 0 0 | 1
+2024/07/05 09:58:45.012 S:I logGpsEphemeris: 1019 7 273 4 1 | 1092 132 29475 0 74 | -164291 388 366 14600 -389777615 | 589 160280677 3068 2701978973 29475 | -38 -1194990714 212 649271376 8633 | -1443220969 -23576 -24 0 0 | 1
+2024/07/05 09:58:45.012 S:I logGpsEphemeris: 1019 8 273 0 1 | -174 132 29475 0 148 | 560292 388 4670 12669 1557743727 | 4027 81449864 5133 2702002182 29475 | -219 212569640 13 651411354 6187 | 250784462 -22019 10 0 0 | 1
+2024/07/05 09:58:45.012 S:I logGpsEphemeris: 1019 9 273 0 1 | 1384 132 29475 0 131 | 560657 388 -2071 11485 1888869156 | -1757 24323761 5637 2701992481 29475 | -30 -1928003176 22 655673244 5668 | 1345309703 -21082 2 0 0 | 1
+2024/07/05 09:58:45.012 S:I logGpsEphemeris: 1019 10 273 0 1 | -717 132 29475 0 -82 | -125676 388 -4947 10176 -1387463316 | -4270 80727971 2873 2702019459 29475 | -1 1669345745 -116 673158094 9237 | -1623960464 -21297 5 0 0 | 1
+2024/07/05 09:58:45.012 S:I logGpsEphemeris: 1019 11 273 0 1 | -71 132 29475 0 -64 | -1501304 388 1284 12811 1078513171 | 1151 12258532 -165 2702041818 29475 | -7 984470830 59 660331916 12491 | -1774513304 -23499 -19 0 0 | 1
+2024/07/05 09:58:45.012 S:I logGpsEphemeris: 1019 12 273 0 1 | -1545 132 29475 0 -28 | -1116161 388 396 12905 -891714387 | 538 74674140 4957 2701985530 29475 | -47 -432087522 198 657684557 6670 | 995766051 -21964 -27 0 0 | 1
+2024/07/05 09:58:45.012 S:I logGpsEphemeris: 1019 13 273 0 1 | 1852 132 29475 0 22 | 1422737 388 -1181 11009 1368949255 | -1024 70950283 5549 2702003074 29475 | -93 -1814240596 -156 664395169 5956 | 636420330 -21206 -24 0 0 | 1
+2024/07/05 09:58:45.012 S:I logGpsEphemeris: 1019 14 273 0 1 | -1406 132 29475 0 79 | 948240 388 -91 14012 -928777224 | -143 40216516 4534 2702020355 29475 | 24 -462873622 -21 646259554 6581 | -1968875963 -22472 -17 0 0 | 1
+2024/07/05 09:58:45.012 S:I logGpsEphemeris: 1019 15 273 0 1 | 1115 132 29475 0 37 | 381526 388 -2429 13206 901959658 | -2240 135779309 5976 2702013756 29475 | -209 -2016075759 -172 639934931 5091 | 904312663 -22762 -22 0 0 | 1
+2024/07/05 09:58:45.012 S:I logGpsEphemeris: 1019 16 273 0 1 | -1611 132 29475 0 94 | -526794 388 583 12665 -2105032637 | 344 118738683 5031 2701962426 29475 | 7 -419907999 -223 657327364 6430 | 573299240 -21177 -22 0 0 | 1
+2024/07/05 09:58:45.012 S:I logGpsEphemeris: 1019 17 273 0 1 | -337 132 29475 0 -61 | 1467519 388 4514 11452 1540882527 | 3944 115154035 4366 2702056296 29475 | 134 277701386 -45 662179741 6939 | -899745331 -21215 -24 0 0 | 1
+2024/07/05 09:58:45.012 S:I logGpsEphemeris: 1019 18 273 0 1 | -257 132 29475 0 -38 | -1359626 388 1160 12477 222551269 | 878 37021280 -374 2701973742 29475 | 31 964857358 -12 666000448 12580 | -2083043842 -23431 -18 0 0 | 1
+2024/07/05 09:58:45.012 S:I logGpsEphemeris: 1019 19 273 0 1 | -9 132 29475 0 48 | 1086758 388 4540 11676 -1408246945 | 3998 85709861 4727 2702035377 29475 | -211 307969632 -9 661616744 6927 | 1766017205 -21824 -33 0 0 | 1
+2024/07/05 09:58:45.012 S:I logGpsEphemeris: 1019 20 273 0 1 | -861 132 29475 0 -4 | 801213 388 -3902 12717 480275204 | -3368 31593745 1560 2701949537 29475 | -47 1547114942 84 652360491 10277 | -1765619081 -23134 -18 0 0 | 1
+2024/07/05 09:58:45.012 S:I logGpsEphemeris: 1019 21 273 0 1 | -503 132 29475 0 -23 | 238290 388 2721 13189 1445731847 | 2579 216537579 -340 2702012765 29475 | 209 889556819 208 657137035 12366 | -377973916 -23298 -22 0 0 | 1
+2024/07/05 09:58:45.012 S:I logGpsEphemeris: 1019 22 273 0 1 | -1745 132 29475 0 -41 | -76973 388 210 12689 1906160331 | 131 122186097 4930 2702021701 29475 | 161 -417655084 94 656868549 6335 | -773895501 -21301 -24 0 0 | 1
+2024/07/05 09:58:45.012 S:I logGpsEphemeris: 1019 23 273 0 1 | -1029 132 29475 0 79 | 572352 388 -4517 10871 -611994143 | -4004 37321698 2710 2701969058 29475 | 111 1649405662 -95 669819083 9514 | -2026768747 -21933 -18 0 0 | 1
+2024/07/05 09:58:45.012 S:I logGpsEphemeris: 1019 24 273 0 1 | 908 132 29475 0 -17 | -1034385 388 690 15626 292129385 | 529 132611737 2967 2702022099 29475 | -112 -1261819747 111 638167877 8409 | 673670604 -24188 5 0 0 | 1
+2024/07/05 09:58:45.012 S:I logGpsEphemeris: 1019 25 273 0 1 | -1496 132 29475 0 4 | 1069845 388 44 13750 -931750756 | 220 99773494 4464 2702057405 29475 | 185 -491550155 188 649405949 6797 | 745431857 -22218 11 0 0 | 1
+2024/07/05 09:58:45.012 S:I logGpsEphemeris: 1019 26 273 0 1 | -1238 132 29475 0 -59 | 269349 388 -27 15085 -1461568519 | -270 76687910 4253 2702000445 29475 | 119 -534750541 -98 636217541 6698 | 370731900 -22812 14 0 0 | 1
+2024/07/05 09:58:45.012 S:I logGpsEphemeris: 1019 27 273 0 1 | -49 132 29475 0 -9 | -65126 388 4711 11902 1596452970 | 3947 107560864 4921 2702017687 29475 | -106 230879533 -201 657573613 6505 | 545547735 -21478 4 0 0 | 1
+2024/07/05 09:58:45.012 S:I logGpsEphemeris: 1019 28 273 0 1 | 1011 132 29475 0 -143 | -683471 388 175 13502 -1245142921 | 281 2487861 2841 2702004156 29475 | -2 -1217310299 3 656863751 8705 | 1061210466 -22368 -20 0 0 | 1
+2024/07/05 09:58:45.012 S:I logGpsEphemeris: 1019 29 273 0 1 | -45 132 29475 0 16 | -1269302 388 4492 11716 1547171769 | 4090 25863712 4281 2701958983 29475 | 85 288018034 55 663842782 7429 | 1777111728 -21873 -21 0 0 | 1
+2024/07/05 09:58:45.012 S:I logGpsEphemeris: 1019 30 273 0 1 | 1146 132 29475 0 56 | -779592 388 388 15317 -497993519 | 518 61765459 2714 2701974328 29475 | 57 -1194978162 61 639119553 8505 | -1673959632 -23535 9 0 0 | 1
+2024/07/05 09:58:45.012 S:I logGpsEphemeris: 1019 31 273 0 1 | 1030 132 29475 0 2 | -487445 388 194 13990 -1014639939 | 164 90037745 2443 2702042044 29475 | 153 -1180170647 -74 651976897 8779 | 470828186 -22426 -29 0 0 | 1
+2024/07/05 09:58:45.012 S:I logGpsEphemeris: 1019 32 273 0 1 | 1795 132 29475 0 15 | -1317803 388 -1839 11096 2047014774 | -1547 66762774 5883 2702022275 29475 | 16 -1917910288 3 657989931 5363 | -1455916277 -20758 2 0 0 | 1
+2024/07/05 09:58:45.013 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:58:45.013 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208743 <=> 2321 | 467943
+2024/07/05 09:58:45.014 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:58:45.014 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208743 <=> 2321 | 467943
+2024/07/05 09:58:45.017 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:58:45.017 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208743 <=> 2321 | 467943
+2024/07/05 09:58:45.020 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:58:45.020 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208743 <=> 2321 | 467943
+2024/07/05 09:58:45.023 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:58:45.024 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208743 <=> 2321 | 467943
+2024/07/05 09:58:45.029 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:58:45.029 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208743 <=> 2321 | 467943
+2024/07/05 09:58:45.031 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:58:45.031 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208743 <=> 2321 | 467943
+2024/07/05 09:58:45.033 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:58:45.033 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208743 <=> 2321 | 467943
+2024/07/05 09:58:45.035 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:58:45.035 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208743 <=> 2321 | 467943
+2024/07/05 09:58:45.037 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:58:45.037 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208743 <=> 2321 | 467943
+2024/07/05 09:58:45.040 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:58:45.040 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208743 <=> 2321 | 467943
+2024/07/05 09:58:45.042 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:58:45.042 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208743 <=> 2321 | 467943
+2024/07/05 09:58:45.044 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:58:45.044 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208743 <=> 2321 | 467943
+2024/07/05 09:58:45.046 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:58:45.046 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208743 <=> 2321 | 467943
+2024/07/05 09:58:45.048 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:58:45.048 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208743 <=> 2321 | 467943
+2024/07/05 09:58:45.051 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:58:45.051 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208743 <=> 2321 | 467943
+2024/07/05 09:58:45.053 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:58:45.053 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208743 <=> 2321 | 467943
+2024/07/05 09:58:45.056 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:58:45.056 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208743 <=> 2321 | 467943
+2024/07/05 09:58:45.058 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:58:45.058 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 0) for GPS time: 1404208743 <=> 2321 | 467943
+2024/07/05 09:58:45.060 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:58:45.060 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208743 <=> 2321 | 467943
+2024/07/05 09:58:45.061 S:I logBeidouEphemeris: 1042 1 965 15 -2228 | 0 58950 0 2586 7783567 | 0 -5733 4069 -451827236 -6548 | 1374638 52179 3404384950 58950 91 | -33617586 300 42290961 -47123 -52451201 | -662 -52 0 1
+2024/07/05 09:58:45.061 S:I logBeidouEphemeris: 1042 2 965 1 -2805 | 0 58950 0 34418 7113752 | 0 -982 4578 1588041901 -1277 | 7549342 55751 3404447848 58950 668 | 404735 -583 29165775 -50802 1446861292 | -1384 17 0 0
+2024/07/05 09:58:45.061 S:I logBeidouEphemeris: 1042 3 965 1 -2414 | 0 58950 0 65581 4420632 | 0 4187 4056 1441733036 4528 | 7390375 51625 3404486689 58950 737 | 26696659 85 38326479 -46719 1881864809 | -562 23 0 0
+2024/07/05 09:58:45.061 S:I logBeidouEphemeris: 1042 4 965 3 -2179 | 0 58950 0 -29431 -5465597 | 0 -873 -1678 266560066 -1034 | 3611282 51796 3404440093 58950 158 | 24853462 137 39131405 -46752 -644317083 | 4853 55 0 0
+2024/07/05 09:58:45.062 S:I logBeidouEphemeris: 1042 5 965 0 -3026 | 0 58950 0 36431 -5426992 | 0 6126 -797 2067173742 6354 | 4084843 57777 3404373681 58950 -102 | 38002355 -647 36340858 -52710 628892083 | 3821 2 0 0
+2024/07/05 09:58:45.062 S:I logBeidouEphemeris: 1042 6 965 0 2133 | 0 58950 0 37538 4845683 | 0 4343 5211 -2125890014 5652 | 35463137 9582 3404333226 58950 -363 | -1302289649 166 646700994 6985 -1840069770 | -5488 86 0 0
+2024/07/05 09:58:45.062 S:I logBeidouEphemeris: 1042 7 965 0 -1732 | 0 58950 0 38011 -4959733 | 0 37996 3063 735309539 42102 | 33076018 41530 3404140004 58950 479 | 24569273 -69 583233619 -24984 -1768889791 | -4274 151 0 0
+2024/07/05 09:58:45.062 S:I logBeidouEphemeris: 1042 8 965 0 -1912 | 0 58950 0 -44393 -2424119 | 0 -46805 1843 -279579839 -52386 | 23080989 -5719 3404637732 58950 -393 | 1532264651 -100 732186120 23132 2036520906 | -6108 113 0 0
+2024/07/05 09:58:45.062 S:I logBeidouEphemeris: 1042 9 965 0 1903 | 0 58950 0 -61889 108062 | 0 3760 5217 1689239842 5160 | 107445764 8562 3404574267 58950 -273 | -1271084828 217 650304134 7437 -1565588498 | -5349 69 0 0
+2024/07/05 09:58:45.062 S:I logBeidouEphemeris: 1042 10 965 0 -1857 | 0 58950 0 -20548 -529398 | 0 36543 3054 522324303 40590 | 86357717 41423 3404231075 58950 387 | 20872795 -219 584821860 -24742 -1678314814 | -4291 61 0 0
+2024/07/05 09:58:45.062 S:I logBeidouEphemeris: 1042 11 965 2 496 | 0 58950 0 21199 5559523 | 0 10927 9517 -954047991 17830 | 16556317 5612 2769624026 58950 -13 | 598594965 45 672015691 20446 -1191601941 | -18941 41 0 0
+2024/07/05 09:58:45.062 S:I logBeidouEphemeris: 1042 12 965 1 344 | 0 58950 0 -2629 -2248338 | 0 10201 9760 -386395464 16967 | 8726819 5556 2769619835 58950 -23 | 589887461 -153 670911260 20011 -1199117103 | -19074 33 0 0
+2024/07/05 09:58:45.062 S:I logBeidouEphemeris: 1042 13 965 2 -1791 | 0 58950 0 179 3768381 | 0 -49265 2172 -979556247 -54378 | 40245956 -10916 3404489968 58950 -423 | 1511124506 24 706233847 27135 -1656775531 | -6409 -95 0 0
+2024/07/05 09:58:45.062 S:I logBeidouEphemeris: 1042 14 965 3 309 | 0 58950 0 839 7828770 | 0 -10387 8313 829978517 -16947 | 11182733 21565 2769624820 58950 -134 | 2004681289 436 667546700 10611 -91349518 | -17538 67 0 0
+2024/07/05 09:58:45.062 S:I logBeidouEphemeris: 1042 16 965 0 2151 | 0 58950 0 -29694 -5459420 | 0 3928 4949 1857297953 5095 | 63973664 10160 3404668575 58950 -378 | -1304539039 95 657311256 6763 -1513125382 | -5238 -28 0 0
+2024/07/05 09:58:45.062 S:I logBeidouEphemeris: 1042 19 965 0 292 | 0 58950 0 -2077 -7875096 | 0 -9398 8310 -1227278555 -15563 | 7249283 20294 2769624229 58950 177 | 2005860572 222 669339563 11584 -457913739 | -17752 96 0 0
+2024/07/05 09:58:45.062 S:I logBeidouEphemeris: 1042 20 965 0 190 | 0 58950 0 -48100 -5591921 | 0 -10369 8290 -1089835830 -17009 | 6762984 19643 2769624683 58950 -389 | 2006290411 193 669331814 12032 -93182403 | -17491 121 0 0
+2024/07/05 09:58:45.062 S:I logBeidouEphemeris: 1042 21 965 1 -30 | 0 58950 0 6450 -8258082 | 0 -9705 8432 1757298090 -16097 | 6116558 21760 2769623884 58950 135 | 2006968113 -441 668842006 10886 -224448747 | -17570 111 0 0
+2024/07/05 09:58:45.062 S:I logBeidouEphemeris: 1042 22 965 0 83 | 0 58950 0 13705 436317 | 0 -9689 8602 1796627306 -16292 | 6242691 20851 2769623967 58950 163 | 2006916013 33 668847978 11182 269645268 | -17889 136 0 0
+2024/07/05 09:58:45.062 S:I logBeidouEphemeris: 1042 23 965 0 -571 | 0 58950 0 -5391 -6826586 | 0 -547 12910 -490224805 -1289 | 3009329 10938 2769622624 58950 -7 | -859185138 -24 645423659 16274 -968339618 | -19393 219 0 0
+2024/07/05 09:58:45.062 S:I logBeidouEphemeris: 1042 24 965 0 -658 | 0 58950 0 -9682 7629175 | 0 -948 12742 -637805935 -1452 | 3940984 11018 2769617853 58950 36 | -859310325 31 645419366 15606 253493114 | -19424 39 0 0
+2024/07/05 09:58:45.062 S:I logBeidouEphemeris: 1042 25 965 0 -526 | 0 58950 0 11310 3808750 | 0 -415 12780 -1251915430 -1490 | 3617984 10420 2769608445 58950 90 | -875447598 25 646459197 16047 330936507 | -19425 4 0 0
+2024/07/05 09:58:45.062 S:I logBeidouEphemeris: 1042 26 965 0 -646 | 0 58950 0 -6102 -2709549 | 0 -1091 12784 -236499509 -1564 | 6474403 10615 2769608564 58950 -75 | -875030403 77 646492843 16366 387286469 | -19504 -53 0 0
+2024/07/05 09:58:45.062 S:I logBeidouEphemeris: 1042 27 965 0 388 | 0 58950 0 5947 2890352 | 0 11348 10945 -182273858 19247 | 5657687 7255 2769616860 58950 138 | 577862869 -292 655286998 18292 1008938070 | -19729 -46 0 0
+2024/07/05 09:58:45.062 S:I logBeidouEphemeris: 1042 28 965 0 560 | 0 58950 0 4848 2225013 | 0 11392 11055 -1177855559 19256 | 1147003 6882 2769624190 58950 163 | 577689294 151 655203309 18918 -1816170918 | -19711 -47 0 0
+2024/07/05 09:58:45.062 S:I logBeidouEphemeris: 1042 29 965 0 444 | 0 58950 0 5731 2612092 | 0 10906 10794 -1553373777 18112 | 2048479 8437 2769616260 58950 -166 | 550494094 15 653910781 17979 1319052411 | -19346 -3 0 0
+2024/07/05 09:58:45.062 S:I logBeidouEphemeris: 1042 30 965 0 280 | 0 58950 0 -12843 -1054460 | 0 10849 10905 -243498342 17836 | 3802235 8682 2769613324 58950 -212 | 550827111 -66 653878600 17448 572044239 | -19440 -98 0 0
+2024/07/05 09:58:45.062 S:I logBeidouEphemeris: 1042 32 965 0 -53 | 0 58950 0 -11387 -5711548 | 0 -10701 8403 -251627859 -17696 | 4439345 20177 2769622903 58950 83 | 2001319905 -322 668501908 11734 -359667598 | -17654 -76 0 0
+2024/07/05 09:58:45.062 S:I logBeidouEphemeris: 1042 33 965 5 322 | 0 58950 0 -1030 -8251201 | 0 -10824 8453 351946270 -17654 | 4385809 21253 2769622437 58950 158 | 2001237411 224 668523782 10839 113412205 | -17692 -450 0 0
+2024/07/05 09:58:45.062 S:I logBeidouEphemeris: 1042 34 965 0 358 | 0 58950 0 9272 4041011 | 0 11394 10888 1716815120 18481 | 4587255 6931 2769617405 58950 -31 | 551686771 -82 652623381 18531 710632456 | -19491 -64 0 0
+2024/07/05 09:58:45.062 S:I logBeidouEphemeris: 1042 35 965 0 457 | 0 58950 0 -10793 2756587 | 0 10522 11084 -1296734117 17973 | 6623764 8068 2769619292 58950 180 | 551653233 273 652673584 18150 462451282 | -19646 -28 0 0
+2024/07/05 09:58:45.062 S:I logBeidouEphemeris: 1042 36 965 0 -509 | 0 58950 0 11008 1101624 | 0 -994 12895 -2144520258 -2464 | 7162656 10068 2769624708 58950 265 | -859904161 159 646412214 16344 -929094303 | -19711 -208 0 0
+2024/07/05 09:58:45.062 S:I logBeidouEphemeris: 1042 37 965 0 -437 | 0 58950 0 7631 -7977824 | 0 -795 12803 -1450468110 -1007 | 5688289 10683 2769616787 58950 -5 | -860003225 -66 646421893 16297 -544414472 | -19361 -170 0 0
+2024/07/05 09:58:45.063 S:I logBeidouEphemeris: 1042 38 965 0 -1673 | 0 58950 0 2560 1420596 | 0 -46193 2755 -502612928 -52013 | 18508371 -10166 3404162011 58950 -249 | 1509576596 -204 687934094 25394 -1869900715 | -6493 25 0 0
+2024/07/05 09:58:45.063 S:I logBeidouEphemeris: 1042 39 965 0 2540 | 0 58950 0 -186 -77314 | 0 4730 4724 -1933060597 5633 | 29837978 12836 3404171955 58950 -364 | -1353493216 41 657823968 4649 -1869281479 | -5187 61 0 0
+2024/07/05 09:58:45.063 S:I logBeidouEphemeris: 1042 40 965 0 -902 | 0 58950 0 -2229 -675181 | 0 47201 1451 1099339297 52509 | 34895045 36642 3404155270 58950 399 | 119043117 129 668897831 -17946 -2088169513 | -3828 7 0 0
+2024/07/05 09:58:45.063 S:I logBeidouEphemeris: 1042 41 965 0 114 | 0 58950 0 9009 -8162475 | 0 -10787 8605 807180467 -17953 | 12923907 20096 2769622563 58950 86 | 2003348082 -39 667716501 11508 -861818307 | -17894 -237 0 0
+2024/07/05 09:58:45.063 S:I logBeidouEphemeris: 1042 42 965 0 194 | 0 58950 0 -3138 -3870923 | 0 -10333 8180 1677461910 -16728 | 11458123 22083 2769622753 58950 -480 | 2003746176 85 667738184 10336 -661613797 | -17393 -326 0 0
+2024/07/05 09:58:45.063 S:I logBeidouEphemeris: 1042 43 965 0 516 | 0 58950 0 1518 667799 | 0 11729 11127 1294789612 19219 | 4206098 7173 2769615545 58950 -105 | 550525871 -74 650544222 18540 646271251 | -19596 -35 0 0
+2024/07/05 09:58:45.063 S:I logBeidouEphemeris: 1042 44 965 0 306 | 0 58950 0 12754 4499754 | 0 10606 11295 -1896916040 18116 | 6005423 6362 2769617375 58950 208 | 550817198 -211 650858249 18691 580979294 | -19716 -15 0 0
+2024/07/05 09:58:45.063 S:I logBeidouEphemeris: 1042 45 965 1 -707 | 0 58950 0 -4575 -869273 | 0 -894 12693 927131370 -1965 | 3777555 11356 2769608862 58950 19 | -856814964 -219 649110911 16302 -228416375 | -19548 190 0 0
+2024/07/05 09:58:45.063 S:I logBeidouEphemeris: 1042 59 965 0 -2258 | 0 58950 0 -163 3726 | 0 -35329 19262 1403501777 -39273 | 3158779 33784 3404466219 58950 -232 | -286204936 132 35533730 -30649 -1710026218 | -15808 416 0 0
+2024/07/05 09:58:45.063 S:I logBeidouEphemeris: 1042 60 965 0 -2530 | 0 58950 0 85 -4455 | 0 31987 -5226 65592398 34821 | 1460993 45820 3404416937 58950 -284 | 221455688 -810 50993277 -41672 -1593127139 | 8350 474 0 0
+2024/07/05 09:58:45.063 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:58:45.063 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208743 <=> 2321 | 467943
+2024/07/05 09:58:45.066 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:58:45.066 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208743 <=> 2321 | 467943
+2024/07/05 09:58:45.069 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:58:45.069 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208743 <=> 2321 | 467943
+2024/07/05 09:58:45.072 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:58:45.072 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208743 <=> 2321 | 467943
+2024/07/05 09:58:45.074 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:58:45.074 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208743 <=> 2321 | 467943
+2024/07/05 09:58:45.076 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:58:45.076 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208743 <=> 2321 | 467943
+2024/07/05 09:58:45.079 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:58:45.079 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208743 <=> 2321 | 467943
+2024/07/05 09:58:45.081 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:58:45.081 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208743 <=> 2321 | 467943
+2024/07/05 09:58:45.084 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:58:45.084 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208743 <=> 2321 | 467943
+2024/07/05 09:58:45.086 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:58:45.086 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208743 <=> 2321 | 467943
+2024/07/05 09:58:45.088 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:58:45.088 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208743 <=> 2321 | 467943
+2024/07/05 09:58:45.090 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:58:45.090 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208743 <=> 2321 | 467943
+2024/07/05 09:58:45.092 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:58:45.092 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208743 <=> 2321 | 467943
+2024/07/05 09:58:45.094 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:58:45.095 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208743 <=> 2321 | 467943
+2024/07/05 09:58:45.097 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:58:45.097 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208743 <=> 2321 | 467943
+2024/07/05 09:58:45.099 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:58:45.099 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208743 <=> 2321 | 467943
+2024/07/05 09:58:45.102 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:58:45.103 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208743 <=> 2321 | 467943
+2024/07/05 09:58:45.105 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:58:45.106 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208743 <=> 2321 | 467943
+2024/07/05 09:58:45.108 S:I leapSecRolloverCheck: Time of next leap second in GPS time (Week | TOW): 0 | 0. Current leap seconds: 18. Next leap seconds: 0.
+2024/07/05 09:58:45.108 S:I RXN_MSL_GetEphemerisRtcm: Getting EE (Constellation enum: 3) for GPS time: 1404208743 <=> 2321 | 467943
