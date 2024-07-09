@@ -1,15 +1,15 @@
 #!/bin/bash
 
-LOGFILE="./logfile.log"
+LOGFILE="/home/shivani/gps/logfile.log"
 
 {
     echo "Starting script at $(date)"
 
     # Define variables
-    OUTPUT_FOLDER="gnss_out"
+    OUTPUT_FOLDER="/home/shivani/gps/gnss_out"
     OUTPUT_FILE="rtcm_all.gnss"
     TIMESTAMP=$(date +"%Y%m%d%H%M%S")
-    LOCAL_COMMAND="./RXN_IntApp"
+    LOCAL_COMMAND="/home/shivani/gps/RXN_IntApp"
 
     # Step 1: Ensure the command is executable
     echo "Making the command executable..."
@@ -23,7 +23,7 @@ LOGFILE="./logfile.log"
     if [ -f "$OUTPUT_FOLDER/$OUTPUT_FILE" ]; then
         NEW_FILE_NAME="${OUTPUT_FILE%.*}_$TIMESTAMP.${OUTPUT_FILE##*.}"
         echo "Saving output file with new name: $NEW_FILE_NAME"
-        cp "$OUTPUT_FOLDER/$OUTPUT_FILE" "./${NEW_FILE_NAME##*/}"
+        cp "$OUTPUT_FOLDER/$OUTPUT_FILE" "/home/shivani/gps/${NEW_FILE_NAME##*/}"
     else
         echo "Output file not found."
         exit 1
