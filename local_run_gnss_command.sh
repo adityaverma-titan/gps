@@ -36,23 +36,28 @@ AWS_BUCKET="s3://twcd-images/gps/81/"
     # Step 5: Upload the updated file with timestamp to AWS S3
     echo "Uploading file to AWS S3..."
     aws s3 cp "$WORKING_DIR/$NEW_FILE_NAME" "$AWS_BUCKET"
-	
-	# Step 6: Cleanup: Keep only the latest 5 files and delete the rest
-    echo "Performing cleanup..."
-    FILE_LIST=$(ls -t1 "$WORKING_DIR/rtcm_all*.agnss" 2>/dev/null)
-    if [ $? -eq 0 ]; then
-        COUNT=$(echo "$FILE_LIST" | wc -l)
-        if [ $COUNT -gt 5 ]; then
-            DELETE_COUNT=$((COUNT - 5))
-            FILES_TO_DELETE=$(echo "$FILE_LIST" | tail -n $DELETE_COUNT)
-            echo "Deleting $DELETE_COUNT old files..."
-            echo "$FILES_TO_DELETE" | xargs -d '\n' rm
-        else
-            echo "No files to delete."
-        fi
-    else
-        echo "No files matching 'rtcm_all*.agnss' found for cleanup."
-    fi
 
-    echo "Script completed at $(date)"
-} >> "$LOGFILE" 2>&1
+    # Step 6: Cleanup: Keep only the latest 5 files and delete the rest
+	
+	# Ensure we are in the working directory
+	cd "$WORKING_DIR" || exit 1
+
+	# Debugging: List files to check if they exist
+	ls -l rtcm_all*.agnss
+
+	# Delete older files, keeping the latest 5
+	FILE_LIST=$(ls -t rtcm_all*.agnss 2>/dev/null)
+	COUNT=0
+
+	# Loop through the files and keep track of how many we've processed
+	for FILE in $FILE_LIST; do
+		if [ $COUNT -ge 5 ]; then
+			echo "Deleting $FILE"
+			rm "$FILE"
+		else
+			echo "Keeping $FILE"
+		fi
+		COUNT=$((COUNT + 1))
+	done
+   
+>> "$LOGFILE" 2>&1
