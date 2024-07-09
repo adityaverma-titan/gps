@@ -38,7 +38,6 @@ AWS_BUCKET="s3://twcd-images/gps/81/"
     aws s3 cp "$WORKING_DIR/$NEW_FILE_NAME" "$AWS_BUCKET"
 
     # Step 6: Cleanup: Keep only the latest 5 files and delete the rest
-	
 	# Ensure we are in the working directory
 	cd "$WORKING_DIR" || exit 1
 
@@ -59,5 +58,6 @@ AWS_BUCKET="s3://twcd-images/gps/81/"
 		fi
 		COUNT=$((COUNT + 1))
 	done
-   
->> "$LOGFILE" 2>&1
+	
+	echo "Script completed at $(date)"
+ } >> "$LOGFILE" 2>&1
