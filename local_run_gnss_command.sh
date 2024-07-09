@@ -39,7 +39,20 @@ AWS_BUCKET="s3://twcd-images/gps/81/"
 	
 	# Step 6: Cleanup: Keep only the latest 5 files and delete the rest
     echo "Performing cleanup..."
-    ls -t1 "$WORKING_DIR/rtcm_all*.agnss" | tail -n +6 | xargs -I {} rm {}
+    FILE_LIST=$(ls -t1 "$WORKING_DIR/rtcm_all*.agnss" 2>/dev/null)
+    if [ $? -eq 0 ]; then
+        COUNT=$(echo "$FILE_LIST" | wc -l)
+        if [ $COUNT -gt 5 ]; then
+            DELETE_COUNT=$((COUNT - 5))
+            FILES_TO_DELETE=$(echo "$FILE_LIST" | tail -n $DELETE_COUNT)
+            echo "Deleting $DELETE_COUNT old files..."
+            echo "$FILES_TO_DELETE" | xargs -d '\n' rm
+        else
+            echo "No files to delete."
+        fi
+    else
+        echo "No files matching 'rtcm_all*.agnss' found for cleanup."
+    fi
 
     echo "Script completed at $(date)"
 } >> "$LOGFILE" 2>&1
