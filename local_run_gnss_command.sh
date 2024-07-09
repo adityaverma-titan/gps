@@ -3,7 +3,7 @@
 LOGFILE="/home/shivani/gps/logfile.log"
 WORKING_DIR="/home/shivani/gps"
 OUTPUT_FOLDER="$WORKING_DIR/gnss_out"
-OUTPUT_FILE="rtcm_all.gnss"
+OUTPUT_FILE="rtcm_all.agnss"
 LOCAL_COMMAND="$WORKING_DIR/RXN_IntApp"
 CONFIG_FILE="$WORKING_DIR/MSLConfig.txt"
 AWS_BUCKET="s3://twcd-images/gps/81/"
@@ -36,6 +36,10 @@ AWS_BUCKET="s3://twcd-images/gps/81/"
     # Step 5: Upload the updated file with timestamp to AWS S3
     echo "Uploading file to AWS S3..."
     aws s3 cp "$WORKING_DIR/$NEW_FILE_NAME" "$AWS_BUCKET"
+	
+	# Step 6: Cleanup: Keep only the latest 5 files and delete the rest
+    echo "Performing cleanup..."
+    ls -t1 "$WORKING_DIR/rtcm_all*.agnss" | tail -n +6 | xargs -I {} rm {}
 
     echo "Script completed at $(date)"
 } >> "$LOGFILE" 2>&1
