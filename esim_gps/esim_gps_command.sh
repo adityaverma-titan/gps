@@ -10,7 +10,7 @@ AWS_BUCKET="s3://twcd-images/gps/TI_S2900/"
 TEMP_FILE="agps"
 
 # Log file
-LOG_FILE="esimScript.log"
+LOG_FILE="/home/shivani/gps/esim_gps/esimScript.log"
 
 # Start script
 echo "$(date '+%Y-%m-%d %H:%M:%S') - Script started" > "$LOG_FILE"
