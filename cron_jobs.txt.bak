@@ -1,0 +1,2 @@
+0 * * * * /home/shivani/gps/local_run_gnss_command.sh >> /home/shivani/gps/logfile.log 2>&1
+*/2 * * * * /home/shivani/gps/esim_gps/esim_gps_command.sh >> /home/shivani/gps/esim_gps/esimScript.log 2>&1
