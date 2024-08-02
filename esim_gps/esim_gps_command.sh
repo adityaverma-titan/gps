@@ -4,13 +4,13 @@
 URL="https://fitness.mobvoi.com/api/agps?param=%22domain=www.gnss-aide.com;port=2621;user=wjzhou@mobvoi.com;pwd=12mo34bvoi;cmd=eph%22"
 
 # S3 bucket
-AWS_BUCKET="s3://twcd-images/gps/TI_S2900/"
+AWS_BUCKET="s3://twc-pub/gps/61/"
 
 # Temporary file name
 TEMP_FILE="agps"
 
 # Log file
-LOG_FILE="/home/shivani/gps/esim_gps/esimScript.log"
+LOG_FILE="/root/offline-gps/gps/esim_gps/esimScript.log"
 
 # Start script
 echo "$(date '+%Y-%m-%d %H:%M:%S') - Script started" > "$LOG_FILE"

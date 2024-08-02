@@ -1,12 +1,12 @@
 #!/bin/bash
 
-LOGFILE="/home/shivani/gps/creek_gps/logfile.log"
-WORKING_DIR="/home/shivani/gps/creek_gps"
+LOGFILE="/root/offline-gps/gps/creek_gps/logfile.log"
+WORKING_DIR="/root/offline-gps/gps/creek_gps"
 OUTPUT_FOLDER="$WORKING_DIR/gnss_out"
 OUTPUT_FILE="rtcm_all.agnss"
 LOCAL_COMMAND="$WORKING_DIR/RXN_IntApp"
-CONFIG_FILE="/home/shivani/gps/creek_gps/MSLConfig.txt"
-AWS_BUCKET="s3://twcd-images/gps/TITAN_90206/"
+CONFIG_FILE="/root/offline-gps/gps/creek_gps/MSLConfig.txt"
+AWS_BUCKET="s3://twc-pub/gps/81/"
 
 {
     echo "Starting script at $(date)"
